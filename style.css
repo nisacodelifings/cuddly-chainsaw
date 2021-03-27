@@ -28,6 +28,7 @@ a {
     display: flex;
     -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    height: 170vh;
 }
 
 @-webkit-keyframes text-focus-in {
@@ -70,11 +71,12 @@ a {
 
 .konten {
     width: 50%;
-    border-right: 1px solid var(--garis);
-    height: 160vh;
+    height: 100%;
+    overflow-y: scroll;
 }
 
 .others {
+    border-left: 1px solid var(--garis);
     width: 20%;
 }
 
@@ -459,6 +461,7 @@ footer a:hover {
 
 .isi-tanya-container {
     padding: 10px;
+    margin-top: 20px;
 }
 
 .isi-tanya {
@@ -598,10 +601,30 @@ footer a:hover {
         padding: 5px;
         border-radius: 5px;
     }
-    .mobile .tanya{
-    	padding: 10px;
+    .mobile .add-tanya{
+    	border-bottom: 1px solid var(--garis);
+    	border-top: 1px solid var(--garis);
     	margin-bottom: 20px;
     }
+    .mobile .tanya{
+    	padding: 5px;
+    	margin-bottom: 5px;
+    	width: 80%;
+    	border-bottom: 0;
+    }
+    .mobile .tanya textarea{
+    	font-size: 12pt;
+    }
+    .mobile .pendukung {
+    	padding: 10px;
+    }
+     .mobile .pendukung a svg {
+    width: 15px;
+    color: var(--tem);
+}
+.tombol-tanya{
+	padding: 5px;
+}
     .mobile .rangking-container{
     	display: flex;
     	justify-content: center;
