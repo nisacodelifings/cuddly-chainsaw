@@ -17,7 +17,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.6);
+  background: var(--cool);
   display: flex;
   justify-content: center;
 }
@@ -29,7 +29,7 @@
   padding: 30px;
   max-width: 500px;
   margin-top: 30vh;
-  max-height: 55vh;
+  max-height: 52vh;
   border-radius: 20px;
   overflow-y: hidden;
   box-sizing: border-box;
