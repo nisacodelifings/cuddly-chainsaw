@@ -415,7 +415,7 @@ footer a:hover {
     border: none;
     font-family: 'Acme', sans-serif;
     background: var(--bg);
-    color: #fff;
+    color: var(--tem);
     height: auto;
     width: 100%;
     resize: none;
@@ -423,8 +423,11 @@ footer a:hover {
 
 .tanya textarea::placeholder {
     font-family: 'Acme', sans-serif;
+    color: #fff;
 }
-
+.tanya textarea:focus::placeholder{
+	color: var(--tem);
+}
 .pendukung {
     margin-top: 10px;
     display: flex;
@@ -572,36 +575,51 @@ footer a:hover {
         font-size: 15pt;
         right: 0;
         left: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
         border-radius: 0;
         padding-right: 0;
     }
+
     .mobile .home .search-wrapper input:focus::placeholder {
         color: var(--tem);
     }
 
-    .mobile .filter{
-    	margin: 20px;
+    .mobile .filter {
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobile .filter svg {
+        width: 20px;
+        background: var(--garis);
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .mobile .tanya{
+    	padding: 10px;
+    	margin-bottom: 20px;
+    }
+    .mobile .rangking-container{
     	display: flex;
-    	align-items: center;
-    	justify-content: space-between;
+    	justify-content: center;
     }
-    .mobile .filter select{
-    	color: black;
-    	outline: 0;
+    .mobile .rangking{
+    	margin-top: 20px;
     }
-    .mobile .filter option:hover{
-    	color: black;
+    .mobile .title-container .title{
+    	font-size: 12pt;
     }
-
-    .mobile .filter svg{
-    	width: 20px;
-    	background: var(--garis);
+    .mobile .profile{
     	padding: 5px;
-    	border-radius: 5px;
+    	font-size: 10pt;
     }
-
+    .mobile .profile img{
+    	width: 25px;
+    }
     .mobile .isi-tanya-container {
-        margin-top: 20px;
         margin-bottom: 50px;
     }
 
@@ -609,145 +627,4 @@ footer a:hover {
         -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
         animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     }
-
-    .mobile .add-tanya {
-        position: fixed;
-        width: 50px;
-        height: 50px;
-        background: var(--tem);
-        bottom: 80px;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        right: 20px;
-        -webkit-animation: bounce-top 0.9s both;
-        animation: bounce-top 0.9s both;
-    }
-
-    .mobile .add-tanya svg {
-        width: 30px;
-    }
-
-    @-webkit-keyframes bounce-top {
-        0% {
-            -webkit-transform: translateY(-45px);
-            transform: translateY(-45px);
-            -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-            opacity: 1;
-        }
-
-        24% {
-            opacity: 1;
-        }
-
-        40% {
-            -webkit-transform: translateY(-24px);
-            transform: translateY(-24px);
-            -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-        }
-
-        65% {
-            -webkit-transform: translateY(-12px);
-            transform: translateY(-12px);
-            -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-        }
-
-        82% {
-            -webkit-transform: translateY(-6px);
-            transform: translateY(-6px);
-            -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-        }
-
-        93% {
-            -webkit-transform: translateY(-4px);
-            transform: translateY(-4px);
-            -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-        }
-
-        25%,
-        55%,
-        75%,
-        87% {
-            -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-            -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-        }
-
-        100% {
-            -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-            -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-            opacity: 1;
-        }
-    }
-
-    @keyframes bounce-top {
-        0% {
-            -webkit-transform: translateY(-45px);
-            transform: translateY(-45px);
-            -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-            opacity: 1;
-        }
-
-        24% {
-            opacity: 1;
-        }
-
-        40% {
-            -webkit-transform: translateY(-24px);
-            transform: translateY(-24px);
-            -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-        }
-
-        65% {
-            -webkit-transform: translateY(-12px);
-            transform: translateY(-12px);
-            -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-        }
-
-        82% {
-            -webkit-transform: translateY(-6px);
-            transform: translateY(-6px);
-            -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-        }
-
-        93% {
-            -webkit-transform: translateY(-4px);
-            transform: translateY(-4px);
-            -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-        }
-
-        25%,
-        55%,
-        75%,
-        87% {
-            -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-            -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-        }
-
-        100% {
-            -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-            -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-            opacity: 1;
-        }
-    }
-
 }
-
