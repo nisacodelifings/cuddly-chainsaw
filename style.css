@@ -463,6 +463,9 @@ footer a:hover, .modal-tanya {
     padding: 10px;
     margin-top: 20px;
 }
+.isi-tanya-container p{
+	text-align: center;
+}
 .isi-tanya-notif{
 	padding: 10px;
 	margin-bottom: 50px;

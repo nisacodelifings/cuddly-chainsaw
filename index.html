@@ -995,45 +995,35 @@ function addModalContentHeight(type) {
                                 </h2>
                             </header>
                             <main class="modal__content" id="modal-1-content">
-                                <div class="poin">
-                                    <span>Mapel : </span>
-                                    <div class="select-mapel" style="width:200px;">
-                                        <select>
-                                            <option value="0">Pilih Mapel:</option>
-                                            <option value="1">Matematika</option>
-                                            <option value="2">B. Indonesia</option>
-                                            <option value="3">Kimia</option>
-                                            <option value="4">PAI</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="poin">
-                                    <span>Jenjang : </span>
-                                    <div class="select-jenjang" style="width:150px;">
-                                        <select>
-                                            <option value="0">Pilih Jenjang:</option>
-                                            <option value="1">PAUD</option>
-                                            <option value="2">TK</option>
-                                            <option value="3">SD/MI</option>
-                                            <option value="4">SMP/MTS</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="poin">
-                                    <span>Tema : </span>
-                                    <div class="select-tema" style="width:200px;">
-                                        <select>
-                                            <option value="0">Pilih Tema:</option>
-                                            <option value="1">Ujian Nasional</option>
-                                            <option value="2">Ujian PNS</option>
-                                            <option value="3">Umum</option>
-                                        </select>
-                                    </div>
-                                </div>
+                                <form action="">
+                                    Mata Pelajaran : <br>
+                                    <input type="checkbox" id="matematika" name="matematika" value="matematika">
+                                    <label for="matematika"> Matematika</label><br>
+                                    <input type="checkbox" id="kimia" name="kimia" value="kimia">
+                                    <label for="kimia"> Kimia</label><br>
+                                    <input type="checkbox" id="indo" name="indo" value="indo">
+                                    <label for="indo"> B. Indonesia</label><br><br>
+
+                                    Jenjang : <br>
+                                    <input type="checkbox" id="paud" name="paud" value="paud">
+                                    <label for="paud"> PAUD/TK</label><br>
+                                    <input type="checkbox" id="SD" name="SD" value="SD">
+                                    <label for="SD"> SD/MI</label><br>
+                                    <input type="checkbox" id="SMP" name="SMP" value="SMP">
+                                    <label for="SMP"> SMP/MTS</label><br><br>
+
+                                    Tema : <br>
+                                    <input type="checkbox" id="un" name="un" value="un">
+                                    <label for="un"> Ujian Nasional</label><br>
+                                    <input type="checkbox" id="pns" name="pns" value="pns">
+                                    <label for="pns"> Ujian PNS</label><br>
+                                    <input type="checkbox" id="umum" name="umum" value="umum">
+                                    <label for="umum"> Umum</label><br><br>
                             </main>
                             <footer class="modal__footer">
-                                <button class="modal__btn modal__btn-primary">Terapkan</button>
+                                <button class="modal__btn modal__btn-primary" type="submit">Terapkan</button>
                                 <button class="modal__btn" data-micromodal-close aria-label="Close this dialog window">Batal</button>
+                                </form>
                             </footer>
                         </div>
                     </div>
