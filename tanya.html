@@ -213,7 +213,12 @@ function addModalContentHeight(type) {
                             <path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z"></path>
                             <path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"></path>
                         </svg></a>
-                    <a href="">
+                    <a href="rangking.html">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732l-3.354 1.935-1.18 4.455a1 1 0 01-1.933 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732l3.354-1.935 1.18-4.455A1 1 0 0112 2z" clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                    <a href="notifikasi.html">
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"></path>
                         </svg>
@@ -251,68 +256,67 @@ function addModalContentHeight(type) {
                                     </h2>
                                 </header>
                                 <main class="modal__content" id="modal-1-content">
-                                        <div class="poin">
-                                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-                                            </svg>
-                                            <span>Poin : </span>
-                                            <input type="text" placeholder="min. 1">
+                                    <div class="poin">
+                                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                                        </svg>
+                                        <span>Poin : </span>
+                                        <input type="text" placeholder="min. 1">
+                                    </div>
+                                    <div class="poin">
+                                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z"></path>
+                                            <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z"></path>
+                                            <path d="M17 5c0 1.657-3.134 3-7 3S3 6.657 3 5s3.134-3 7-3 7 1.343 7 3z"></path>
+                                        </svg>
+                                        <span>Scoin : </span>
+                                        <input type="text" placeholder="min. 0">
+                                    </div>
+                                    <span>Kepada : </span>
+                                    <div class="select-tema" style="width:200px;">
+                                        <select>
+                                            <option value="0">Pilih:</option>
+                                            <option value="1">Semua orang</option>
+                                            <option value="2">Private</option>
+                                        </select>
+                                    </div><br>
+                                    <p>Jika anda memilih pertanyaan ditujukan ke private, Silahkan ketik username pengguna yang dituju dibawah ini.</p><br>
+                                    <input type="text" placeholder="annisa_pussa">
+                                    <br><br>
+                                    <span>Mapel : </span>
+                                    <div class="select-mapel" style="width:200px;">
+                                        <select>
+                                            <option value="0">Pilih:</option>
+                                            <option value="1">Matematika</option>
+                                            <option value="2">B. Indonesia</option>
+                                            <option value="3">Kimia</option>
+                                            <option value="4">PAI</option>
+                                        </select>
+                                    </div>
+                                    <br>
+                                    <span>Jenjang : </span>
+                                    <div class="poin">
+                                        <div class="select-jenjang" style="width:150px;">
+                                            <select>
+                                                <option value="0">Pilih:</option>
+                                                <option value="1">PAUD</option>
+                                                <option value="2">TK</option>
+                                                <option value="3">SD/MI</option>
+                                                <option value="4">SMP/MTS</option>
+                                                <option value="4">SMA/MA</option>
+                                            </select>
                                         </div>
-                                        <div class="poin">
-                                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z"></path>
-                                                <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z"></path>
-                                                <path d="M17 5c0 1.657-3.134 3-7 3S3 6.657 3 5s3.134-3 7-3 7 1.343 7 3z"></path>
-                                            </svg>
-                                            <span>Scoin : </span>
-                                            <input type="text" placeholder="min. 0">
-                                        </div>
-                                        <span>Kepada : </span>
-                                            <div class="select-tema" style="width:200px;">
-                                                <select>
-                                                    <option value="0">Pilih:</option>
-                                                    <option value="1">Semua orang</option>
-                                                    <option value="2">Private</option>
-                                                </select>
-                                            </div><br>
-                                            <p>Jika anda memilih pertanyaan ditujukan ke private, Silahkan ketik username pengguna yang dituju dibawah ini.</p><br>
-                                            <input type="text" placeholder="annisa_pussa">
-                                            <br><br>
-                                            <span>Mapel : </span>
-                                            <div class="select-mapel" style="width:200px;">
-                                                <select>
-                                                    <option value="0">Pilih:</option>
-                                                    <option value="1">Matematika</option>
-                                                    <option value="2">B. Indonesia</option>
-                                                    <option value="3">Kimia</option>
-                                                    <option value="4">PAI</option>
-                                                </select>
-                                            </div>
-                                            <br>
-                                            <span>Jenjang : </span>
-                                            <div class="poin">
-                                            <div class="select-jenjang" style="width:150px;">
-                                                <select>
-                                                    <option value="0">Pilih:</option>
-                                                    <option value="1">PAUD</option>
-                                                    <option value="2">TK</option>
-                                                    <option value="3">SD/MI</option>
-                                                    <option value="4">SMP/MTS</option>
-                                                    <option value="4">SMA/MA</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                            <span>Tema : </span>
-                                            <div class="select-tema" style="width:200px;">
-                                                <select>
-                                                    <option value="0">Pilih:</option>
-                                                    <option value="1">Ujian Nasional</option>
-                                                    <option value="2">Ujian PNS</option>
-                                                    <option value="3">Umum</option>
-                                                </select>
-                                            </div>
-                                            
-                                    </main>
+                                    </div>
+                                    <span>Tema : </span>
+                                    <div class="select-tema" style="width:200px;">
+                                        <select>
+                                            <option value="0">Pilih:</option>
+                                            <option value="1">Ujian Nasional</option>
+                                            <option value="2">Ujian PNS</option>
+                                            <option value="3">Umum</option>
+                                        </select>
+                                    </div>
+                                </main>
                                 <footer class="modal__footer">
                                     <button class="modal__btn modal__btn-primary">Kirim Pertanyaan</button>
                                     <button class="modal__btn" data-micromodal-close aria-label="Close this dialog window">Batal</button>
@@ -326,28 +330,20 @@ function addModalContentHeight(type) {
                 <div class="isi-tanya">
                     <div class="container-banyak">
                         <div class="paling-atas">
-                            <h4>Matematika</h4>
-                            <div class="waktu"><span>Baru saja</span></div>
+                            <h4>Annisa Puspitasari</h4>
                             <div class="ttg-tanyaan">
                                 <div class="oleh">
-                                    dari <a href=""><span>Annisa Puspitasari</span></a>
+                                    <a href=""><span>@annisa_pussa</span></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
+                        <div class="tanyaan-nya">Udah dijawab ya dek..</div><br>
                         <div class="info">
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                                 </svg>
-                                <span>3</span>
-                            </div>
-                            <div class="dilihat">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                </svg>
-                                <span>0</span>
+                                <span>17.45</span>
                             </div>
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -363,37 +359,36 @@ function addModalContentHeight(type) {
                                 </svg>
                                 <span>1000</span>
                             </div>
+                            <div class="dilihat">
+                                <a href="">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="container-jawab">
-                        <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
+                        <a href=""><span class="tombol-tanya">Lihat Detail</span></a>
                     </div>
                 </div>
                 <div class="isi-tanya">
                     <div class="container-banyak">
                         <div class="paling-atas">
-                            <h4>Matematika</h4>
-                            <div class="waktu"><span>Baru saja</span></div>
+                            <h4>Annisa Puspitasari</h4>
                             <div class="ttg-tanyaan">
                                 <div class="oleh">
-                                    dari <a href=""><span>Annisa Puspitasari</span></a>
+                                    <a href=""><span>@annisa_pussa</span></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
+                        <div class="tanyaan-nya">Udah dijawab ya dek..</div><br>
                         <div class="info">
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                                 </svg>
-                                <span>3</span>
-                            </div>
-                            <div class="dilihat">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                </svg>
-                                <span>0</span>
+                                <span>17.45</span>
                             </div>
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -409,37 +404,36 @@ function addModalContentHeight(type) {
                                 </svg>
                                 <span>1000</span>
                             </div>
+                            <div class="dilihat">
+                                <a href="">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="container-jawab">
-                        <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
+                        <a href=""><span class="tombol-tanya">Lihat Detail</span></a>
                     </div>
                 </div>
                 <div class="isi-tanya">
                     <div class="container-banyak">
                         <div class="paling-atas">
-                            <h4>Matematika</h4>
-                            <div class="waktu"><span>Baru saja</span></div>
+                            <h4>Annisa Puspitasari</h4>
                             <div class="ttg-tanyaan">
                                 <div class="oleh">
-                                    dari <a href=""><span>Annisa Puspitasari</span></a>
+                                    <a href=""><span>@annisa_pussa</span></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
+                        <div class="tanyaan-nya">Udah dijawab ya dek..</div><br>
                         <div class="info">
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                                 </svg>
-                                <span>3</span>
-                            </div>
-                            <div class="dilihat">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                </svg>
-                                <span>0</span>
+                                <span>17.45</span>
                             </div>
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -455,37 +449,36 @@ function addModalContentHeight(type) {
                                 </svg>
                                 <span>1000</span>
                             </div>
+                            <div class="dilihat">
+                                <a href="">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="container-jawab">
-                        <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
+                        <a href=""><span class="tombol-tanya">Lihat Detail</span></a>
                     </div>
                 </div>
                 <div class="isi-tanya">
                     <div class="container-banyak">
                         <div class="paling-atas">
-                            <h4>Matematika</h4>
-                            <div class="waktu"><span>Baru saja</span></div>
+                            <h4>Annisa Puspitasari</h4>
                             <div class="ttg-tanyaan">
                                 <div class="oleh">
-                                    dari <a href=""><span>Annisa Puspitasari</span></a>
+                                    <a href=""><span>@annisa_pussa</span></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
+                        <div class="tanyaan-nya">Udah dijawab ya dek..</div><br>
                         <div class="info">
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                                 </svg>
-                                <span>3</span>
-                            </div>
-                            <div class="dilihat">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                </svg>
-                                <span>0</span>
+                                <span>17.45</span>
                             </div>
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -501,37 +494,36 @@ function addModalContentHeight(type) {
                                 </svg>
                                 <span>1000</span>
                             </div>
+                            <div class="dilihat">
+                                <a href="">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="container-jawab">
-                        <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
+                        <a href=""><span class="tombol-tanya">Lihat Detail</span></a>
                     </div>
                 </div>
                 <div class="isi-tanya">
                     <div class="container-banyak">
                         <div class="paling-atas">
-                            <h4>Matematika</h4>
-                            <div class="waktu"><span>Baru saja</span></div>
+                            <h4>Annisa Puspitasari</h4>
                             <div class="ttg-tanyaan">
                                 <div class="oleh">
-                                    dari <a href=""><span>Annisa Puspitasari</span></a>
+                                    <a href=""><span>@annisa_pussa</span></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
+                        <div class="tanyaan-nya">Udah dijawab ya dek..</div><br>
                         <div class="info">
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                                 </svg>
-                                <span>3</span>
-                            </div>
-                            <div class="dilihat">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                </svg>
-                                <span>0</span>
+                                <span>17.45</span>
                             </div>
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -547,37 +539,36 @@ function addModalContentHeight(type) {
                                 </svg>
                                 <span>1000</span>
                             </div>
+                            <div class="dilihat">
+                                <a href="">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="container-jawab">
-                        <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
+                        <a href=""><span class="tombol-tanya">Lihat Detail</span></a>
                     </div>
                 </div>
                 <div class="isi-tanya">
                     <div class="container-banyak">
                         <div class="paling-atas">
-                            <h4>Matematika</h4>
-                            <div class="waktu"><span>Baru saja</span></div>
+                            <h4>Annisa Puspitasari</h4>
                             <div class="ttg-tanyaan">
                                 <div class="oleh">
-                                    dari <a href=""><span>Annisa Puspitasari</span></a>
+                                    <a href=""><span>@annisa_pussa</span></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
+                        <div class="tanyaan-nya">Udah dijawab ya dek..</div><br>
                         <div class="info">
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                                 </svg>
-                                <span>3</span>
-                            </div>
-                            <div class="dilihat">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                </svg>
-                                <span>0</span>
+                                <span>17.45</span>
                             </div>
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -593,37 +584,36 @@ function addModalContentHeight(type) {
                                 </svg>
                                 <span>1000</span>
                             </div>
+                            <div class="dilihat">
+                                <a href="">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="container-jawab">
-                        <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
+                        <a href=""><span class="tombol-tanya">Lihat Detail</span></a>
                     </div>
                 </div>
                 <div class="isi-tanya">
                     <div class="container-banyak">
                         <div class="paling-atas">
-                            <h4>Matematika</h4>
-                            <div class="waktu"><span>Baru saja</span></div>
+                            <h4>Annisa Puspitasari</h4>
                             <div class="ttg-tanyaan">
                                 <div class="oleh">
-                                    dari <a href=""><span>Annisa Puspitasari</span></a>
+                                    <a href=""><span>@annisa_pussa</span></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
+                        <div class="tanyaan-nya">Udah dijawab ya dek..</div><br>
                         <div class="info">
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                                 </svg>
-                                <span>3</span>
-                            </div>
-                            <div class="dilihat">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                </svg>
-                                <span>0</span>
+                                <span>17.45</span>
                             </div>
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -639,37 +629,36 @@ function addModalContentHeight(type) {
                                 </svg>
                                 <span>1000</span>
                             </div>
+                            <div class="dilihat">
+                                <a href="">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="container-jawab">
-                        <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
+                        <a href=""><span class="tombol-tanya">Lihat Detail</span></a>
                     </div>
                 </div>
                 <div class="isi-tanya">
                     <div class="container-banyak">
                         <div class="paling-atas">
-                            <h4>Matematika</h4>
-                            <div class="waktu"><span>Baru saja</span></div>
+                            <h4>Annisa Puspitasari</h4>
                             <div class="ttg-tanyaan">
                                 <div class="oleh">
-                                    dari <a href=""><span>Annisa Puspitasari</span></a>
+                                    <a href=""><span>@annisa_pussa</span></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
+                        <div class="tanyaan-nya">Udah dijawab ya dek..</div><br>
                         <div class="info">
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                                 </svg>
-                                <span>3</span>
-                            </div>
-                            <div class="dilihat">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                </svg>
-                                <span>0</span>
+                                <span>17.45</span>
                             </div>
                             <div class="dilihat">
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -685,56 +674,17 @@ function addModalContentHeight(type) {
                                 </svg>
                                 <span>1000</span>
                             </div>
-                        </div>
-                    </div>
-                    <div class="container-jawab">
-                        <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
-                    </div>
-                </div>
-                <div class="isi-tanya">
-                    <div class="container-banyak">
-                        <div class="paling-atas">
-                            <h4>Matematika</h4>
-                            <div class="waktu"><span>Baru saja</span></div>
-                            <div class="ttg-tanyaan">
-                                <div class="oleh">
-                                    dari <a href=""><span>Annisa Puspitasari</span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
-                        <div class="info">
                             <div class="dilihat">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
-                                </svg>
-                                <span>3</span>
-                            </div>
-                            <div class="dilihat">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                </svg>
-                                <span>0</span>
-                            </div>
-                            <div class="dilihat">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-                                </svg>
-                                <span>10</span>
-                            </div>
-                            <div class="dilihat">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z"></path>
-                                    <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z"></path>
-                                    <path d="M17 5c0 1.657-3.134 3-7 3S3 6.657 3 5s3.134-3 7-3 7 1.343 7 3z"></path>
-                                </svg>
-                                <span>1000</span>
+                                <a href="">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="container-jawab">
-                        <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
+                        <a href=""><span class="tombol-tanya">Lihat Detail</span></a>
                     </div>
                 </div>
             </div>
@@ -1056,17 +1006,17 @@ function addModalContentHeight(type) {
                     <path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"></path>
                 </svg>
             </a>
-            <a href="">
+            <a href="rangking.html">
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732l-3.354 1.935-1.18 4.455a1 1 0 01-1.933 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732l3.354-1.935 1.18-4.455A1 1 0 0112 2z" clip-rule="evenodd"></path>
                 </svg>
             </a>
-            <a href="">
+            <a href="notifikasi.html">
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"></path>
                 </svg>
             </a>
-            <a href="">
+            <a href="profil.html">
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
                 </svg>
@@ -1126,29 +1076,29 @@ function addModalContentHeight(type) {
                                             <input type="text" placeholder="min. 0">
                                         </div>
                                         <span>Kepada : </span>
-                                            <div class="select-tema" style="width:200px;">
-                                                <select>
-                                                    <option value="0">Pilih:</option>
-                                                    <option value="1">Semua orang</option>
-                                                    <option value="2">Private</option>
-                                                </select>
-                                            </div><br>
-                                            <p>Jika anda memilih pertanyaan ditujukan ke private, Silahkan ketik username pengguna yang dituju dibawah ini.</p><br>
-                                            <input type="text">
-                                            <br><br>
-                                            <span>Mapel : </span>
-                                            <div class="select-mapel" style="width:200px;">
-                                                <select>
-                                                    <option value="0">Pilih:</option>
-                                                    <option value="1">Matematika</option>
-                                                    <option value="2">B. Indonesia</option>
-                                                    <option value="3">Kimia</option>
-                                                    <option value="4">PAI</option>
-                                                </select>
-                                            </div>
-                                            <br>
-                                            <span>Jenjang : </span>
-                                            <div class="poin">
+                                        <div class="select-tema" style="width:200px;">
+                                            <select>
+                                                <option value="0">Pilih:</option>
+                                                <option value="1">Semua orang</option>
+                                                <option value="2">Private</option>
+                                            </select>
+                                        </div><br>
+                                        <p>Jika anda memilih pertanyaan ditujukan ke private, Silahkan ketik username pengguna yang dituju dibawah ini.</p><br>
+                                        <input type="text">
+                                        <br><br>
+                                        <span>Mapel : </span>
+                                        <div class="select-mapel" style="width:200px;">
+                                            <select>
+                                                <option value="0">Pilih:</option>
+                                                <option value="1">Matematika</option>
+                                                <option value="2">B. Indonesia</option>
+                                                <option value="3">Kimia</option>
+                                                <option value="4">PAI</option>
+                                            </select>
+                                        </div>
+                                        <br>
+                                        <span>Jenjang : </span>
+                                        <div class="poin">
                                             <div class="select-jenjang" style="width:150px;">
                                                 <select>
                                                     <option value="0">Pilih:</option>
@@ -1160,16 +1110,15 @@ function addModalContentHeight(type) {
                                                 </select>
                                             </div>
                                         </div>
-                                            <span>Tema : </span>
-                                            <div class="select-tema" style="width:200px;">
-                                                <select>
-                                                    <option value="0">Pilih:</option>
-                                                    <option value="1">Ujian Nasional</option>
-                                                    <option value="2">Ujian PNS</option>
-                                                    <option value="3">Umum</option>
-                                                </select>
-                                            </div>
-                                            
+                                        <span>Tema : </span>
+                                        <div class="select-tema" style="width:200px;">
+                                            <select>
+                                                <option value="0">Pilih:</option>
+                                                <option value="1">Ujian Nasional</option>
+                                                <option value="2">Ujian PNS</option>
+                                                <option value="3">Umum</option>
+                                            </select>
+                                        </div>
                                     </main>
                                     <footer class="modal__footer">
                                         <button class="modal__btn modal__btn-primary">Kirim Pertanyaan</button>
@@ -1184,28 +1133,20 @@ function addModalContentHeight(type) {
                     <div class="isi-tanya">
                         <div class="container-banyak">
                             <div class="paling-atas">
-                                <h4>B. Indonesia</h4>
-                                <div class="waktu"><span>Baru saja</span></div>
+                                <h4>Annisa Puspitasari</h4>
                                 <div class="ttg-tanyaan">
                                     <div class="oleh">
-                                        dari <a href=""><span>Annisa Puspitasari</span></a>
+                                        <a href=""><span>@annisa_pussa</span></a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
+                            <div class="tanyaan-nya">Udah dijawab ya dek..</div><br>
                             <div class="info">
                                 <div class="dilihat">
                                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                        <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                                     </svg>
-                                    <span>3</span>
-                                </div>
-                                <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>0</span>
+                                    <span>17.45</span>
                                 </div>
                                 <div class="dilihat">
                                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -1221,37 +1162,36 @@ function addModalContentHeight(type) {
                                     </svg>
                                     <span>1000</span>
                                 </div>
+                                <div class="dilihat">
+                                    <a href="">
+                                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="container-jawab">
-                            <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
+                            <a href=""><span class="tombol-tanya">Lihat Detail</span></a>
                         </div>
                     </div>
                     <div class="isi-tanya">
                         <div class="container-banyak">
                             <div class="paling-atas">
-                                <h4>Matematika</h4>
-                                <div class="waktu"><span>Baru saja</span></div>
+                                <h4>Annisa Puspitasari</h4>
                                 <div class="ttg-tanyaan">
                                     <div class="oleh">
-                                        dari <a href=""><span>Annisa Puspitasari</span></a>
+                                        <a href=""><span>@annisa_pussa</span></a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
+                            <div class="tanyaan-nya">Udah dijawab ya dek..</div><br>
                             <div class="info">
                                 <div class="dilihat">
                                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                        <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                                     </svg>
-                                    <span>3</span>
-                                </div>
-                                <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>0</span>
+                                    <span>17.45</span>
                                 </div>
                                 <div class="dilihat">
                                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -1267,37 +1207,36 @@ function addModalContentHeight(type) {
                                     </svg>
                                     <span>1000</span>
                                 </div>
+                                <div class="dilihat">
+                                    <a href="">
+                                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="container-jawab">
-                            <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
+                            <a href=""><span class="tombol-tanya">Lihat Detail</span></a>
                         </div>
                     </div>
                     <div class="isi-tanya">
                         <div class="container-banyak">
                             <div class="paling-atas">
-                                <h4>Matematika</h4>
-                                <div class="waktu"><span>Baru saja</span></div>
+                                <h4>Annisa Puspitasari</h4>
                                 <div class="ttg-tanyaan">
                                     <div class="oleh">
-                                        dari <a href=""><span>Annisa Puspitasari</span></a>
+                                        <a href=""><span>@annisa_pussa</span></a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
+                            <div class="tanyaan-nya">Udah dijawab ya dek..</div><br>
                             <div class="info">
                                 <div class="dilihat">
                                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                        <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                                     </svg>
-                                    <span>3</span>
-                                </div>
-                                <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>0</span>
+                                    <span>17.45</span>
                                 </div>
                                 <div class="dilihat">
                                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -1313,37 +1252,36 @@ function addModalContentHeight(type) {
                                     </svg>
                                     <span>1000</span>
                                 </div>
+                                <div class="dilihat">
+                                    <a href="">
+                                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="container-jawab">
-                            <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
+                            <a href=""><span class="tombol-tanya">Lihat Detail</span></a>
                         </div>
                     </div>
                     <div class="isi-tanya">
                         <div class="container-banyak">
                             <div class="paling-atas">
-                                <h4>Matematika</h4>
-                                <div class="waktu"><span>Baru saja</span></div>
+                                <h4>Annisa Puspitasari</h4>
                                 <div class="ttg-tanyaan">
                                     <div class="oleh">
-                                        dari <a href=""><span>Annisa Puspitasari</span></a>
+                                        <a href=""><span>@annisa_pussa</span></a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
+                            <div class="tanyaan-nya">Udah dijawab ya dek..</div><br>
                             <div class="info">
                                 <div class="dilihat">
                                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                        <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                                     </svg>
-                                    <span>3</span>
-                                </div>
-                                <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>0</span>
+                                    <span>17.45</span>
                                 </div>
                                 <div class="dilihat">
                                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -1359,37 +1297,36 @@ function addModalContentHeight(type) {
                                     </svg>
                                     <span>1000</span>
                                 </div>
+                                <div class="dilihat">
+                                    <a href="">
+                                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="container-jawab">
-                            <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
+                            <a href=""><span class="tombol-tanya">Lihat Detail</span></a>
                         </div>
                     </div>
                     <div class="isi-tanya">
                         <div class="container-banyak">
                             <div class="paling-atas">
-                                <h4>Matematika</h4>
-                                <div class="waktu"><span>Baru saja</span></div>
+                                <h4>Annisa Puspitasari</h4>
                                 <div class="ttg-tanyaan">
                                     <div class="oleh">
-                                        dari <a href=""><span>Annisa Puspitasari</span></a>
+                                        <a href=""><span>@annisa_pussa</span></a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
+                            <div class="tanyaan-nya">Udah dijawab ya dek..</div><br>
                             <div class="info">
                                 <div class="dilihat">
                                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                        <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                                     </svg>
-                                    <span>3</span>
-                                </div>
-                                <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>0</span>
+                                    <span>17.45</span>
                                 </div>
                                 <div class="dilihat">
                                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -1405,102 +1342,17 @@ function addModalContentHeight(type) {
                                     </svg>
                                     <span>1000</span>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="container-jawab">
-                            <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
-                        </div>
-                    </div>
-                    <div class="isi-tanya">
-                        <div class="container-banyak">
-                            <div class="paling-atas">
-                                <h4>Matematika</h4>
-                                <div class="waktu"><span>Baru saja</span></div>
-                                <div class="ttg-tanyaan">
-                                    <div class="oleh">
-                                        dari <a href=""><span>Annisa Puspitasari</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
-                            <div class="info">
                                 <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                        <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>3</span>
-                                </div>
-                                <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>0</span>
-                                </div>
-                                <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>10</span>
-                                </div>
-                                <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z"></path>
-                                        <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z"></path>
-                                        <path d="M17 5c0 1.657-3.134 3-7 3S3 6.657 3 5s3.134-3 7-3 7 1.343 7 3z"></path>
-                                    </svg>
-                                    <span>1000</span>
+                                    <a href="">
+                                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div class="container-jawab">
-                            <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
-                        </div>
-                    </div>
-                    <div class="isi-tanya">
-                        <div class="container-banyak">
-                            <div class="paling-atas">
-                                <h4>Matematika</h4>
-                                <div class="waktu"><span>Baru saja</span></div>
-                                <div class="ttg-tanyaan">
-                                    <div class="oleh">
-                                        dari <a href=""><span>Annisa Puspitasari</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini</div><br>
-                            <div class="info">
-                                <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                                        <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>3</span>
-                                </div>
-                                <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>0</span>
-                                </div>
-                                <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>10</span>
-                                </div>
-                                <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z"></path>
-                                        <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z"></path>
-                                        <path d="M17 5c0 1.657-3.134 3-7 3S3 6.657 3 5s3.134-3 7-3 7 1.343 7 3z"></path>
-                                    </svg>
-                                    <span>1000</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container-jawab">
-                            <a href=""><span class="tombol-tanya">Jawab sekarang</span></a>
+                            <a href=""><span class="tombol-tanya">Lihat Detail</span></a>
                         </div>
                     </div>
                 </div>

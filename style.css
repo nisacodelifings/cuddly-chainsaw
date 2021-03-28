@@ -250,7 +250,7 @@ a {
     padding: 0 20px;
     font-size: 15px;
     background: var(--cool);
-    color: white;
+    color: var(--tem);
 }
 
 .search-input::placeholder {
@@ -399,7 +399,7 @@ footer a {
     margin-bottom: 5px;
 }
 
-footer a:hover {
+footer a:hover, .modal-tanya {
     border-bottom: 2px solid var(--tem);
 }
 
@@ -462,6 +462,26 @@ footer a:hover {
 .isi-tanya-container {
     padding: 10px;
     margin-top: 20px;
+}
+.isi-tanya-notif{
+	padding: 10px;
+	margin-bottom: 50px;
+}
+.notif{
+	border: 1px solid var(--garis);
+	padding: 10px;
+	margin-top: 10px;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+.notif h3{
+	color: var(--tem);
+}
+.notif .orang{
+	color: var(--tem);
+}
+.isi-tanya-container a .notif:hover{
+	background: var(--garis);
 }
 
 .isi-tanya {
@@ -599,7 +619,7 @@ footer a:hover {
         width: 20px;
         background: var(--garis);
         padding: 5px;
-        border-radius: 5px;
+        border-radius: 10px;
     }
     .mobile .add-tanya{
     	border-bottom: 1px solid var(--garis);
@@ -607,10 +627,7 @@ footer a:hover {
     	margin-bottom: 20px;
     }
     .mobile .tanya{
-    	padding: 5px;
     	margin-bottom: 5px;
-    	width: 80%;
-    	border-bottom: 0;
     }
     .mobile .tanya textarea{
     	font-size: 12pt;
@@ -619,7 +636,7 @@ footer a:hover {
     	padding: 10px;
     }
      .mobile .pendukung a svg {
-    width: 15px;
+    width: 20px;
     color: var(--tem);
 }
 .tombol-tanya{
