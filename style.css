@@ -119,7 +119,45 @@ a {
 .navigasi {
     margin-top: 30px;
 }
-
+.pencapaian{
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid var(--garis);
+}
+.penting{
+	display: flex;
+	margin: 10px;
+}
+.milikmu{
+	border: 1px solid var(--garis);
+	border-radius: 50px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	width: 150px;
+	background: var(--cool);
+}
+.milikmu .kiri, .milikmu .kanan{
+	display: flex;
+	align-items: center;
+}
+.milikmu svg{
+	width: 20px;
+	margin-right: 5px;
+}
+.list-pencapaian{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.list-pencapaian .kiri{
+	display: flex;
+	align-items: center;
+}
+.list-pencapaian svg{
+	width: 20px;
+	margin-right: 10px;
+}
 .nav {
     display: flex;
     font-weight: 900;
@@ -464,6 +502,7 @@ footer a:hover, .modal-tanya {
 }
 .isi-tanya-container p{
 	text-align: center;
+	color: var(--tem);
 }
 .isi-tanya-notif{
 	padding: 10px;
@@ -652,6 +691,9 @@ footer a:hover, .modal-tanya {
         padding: 5px;
         border-radius: 10px;
     }
+    .mobile .filter .keluar{
+    	color: var(--tem);
+    }
     .mobile .add-tanya{
     	border-bottom: 1px solid var(--garis);
     	border-top: 1px solid var(--garis);
@@ -697,5 +739,33 @@ footer a:hover, .modal-tanya {
     .mobile .container-banyak {
         -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
         animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    }
+    .home .penting{
+    	margin-top: 20px;
+    	margin-bottom: 0;
+    }
+    .mobile .isi-tanya-container .pencapaian{
+    	background: var(--cool);
+    }
+    .mobile .list-pencapaian .kiri svg{
+    	width: 40px;
+    }
+    .mobile .list-pencapaian .kanan{
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    }
+    .mobile .list-pencapaian .kanan svg{
+    	width: 10px;
+    }
+    .mobile .daftar{
+    	display: flex;
+    	justify-content: center;
+    }
+    .mobile .daftar .milikmu{
+    	display: flex;
+    	justify-content: space-around;
+    	width: 100%;
+    	border-radius: 0;
     }
 }
