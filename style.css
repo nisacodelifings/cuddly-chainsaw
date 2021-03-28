@@ -508,8 +508,19 @@ footer a:hover, .modal-tanya {
 	padding: 10px;
 	margin-bottom: 50px;
 }
-.isi-rangking-container{
+.container .rangking-container{
+	display: flex;
+	justify-content: center;
+}
+.home .isi-rangking-container{
 	padding: 10px;
+	margin: 5px;
+	margin-bottom: 50px;
+}
+.container .isi-rangking-container{
+	padding: 10px;
+	width: 90%;
+	margin-bottom: 50px;
 }
 .container .isi-rangking{
 	border-bottom: 1px solid var(--garis);
@@ -522,6 +533,7 @@ footer a:hover, .modal-tanya {
 	border-top: 1px solid var(--garis);
 	justify-content: space-between;
 	padding-top: 10px;
+	padding-bottom: 10px;
 	align-items: center;
 }
 .isi-rangking .kiri{
