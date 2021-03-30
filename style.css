@@ -492,6 +492,84 @@ footer a:hover, .modal-tanya {
     font-size: 9pt;
 }
 
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 50px auto;
+    font-size: 10pt;
+    padding: 25px;
+    background: var(--bg);
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    border: 1px solid var(--tem);
+    background: var(--garis);
+    font-weight: bold;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 10px;
+    background: var(--bg);
+    order: 1;
+    display: none;
+    overflow-x: scroll;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: var(--tem);
+}
+.mytabs input[type="radio"]:hover + label{
+	background: var(--tem);
+}
+
+table {
+  background: var(--cool);
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+thead{
+  background: var(--garis);
+}
+th {
+  color: white;
+  font-size: 0.85em;
+  font-weight: 200;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.5em 1em;
+}
+.disabled td {
+  color: #4F5F64;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: var(--tem);
+}
+.table a{
+	border-bottom: 1px solid var(--tem);
+}
+
+
 .container-jawab a span:hover {
     background: var(--tem);
 }
@@ -770,14 +848,19 @@ footer a:hover, .modal-tanya {
     .mobile .list-pencapaian .kanan svg{
     	width: 10px;
     }
-    .mobile .daftar{
-    	display: flex;
-    	justify-content: center;
-    }
-    .mobile .daftar .milikmu{
-    	display: flex;
-    	justify-content: space-around;
-    	width: 100%;
+    .mobile label{
+    	background: var(--cool);
+    	border: 0;
     	border-radius: 0;
+    	margin: 0;
     }
+    .mobile .mytabs input[type="radio"]:hover + label{
+	background: var(--garis);
+	}
+	.mobile .mytabs input[type="radio"]:checked + label {
+    background: var(--garis);
+	}
+	.mobile .mytabs{
+		margin-bottom: 50px;
+	}
 }
