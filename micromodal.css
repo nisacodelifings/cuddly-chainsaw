@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
 }
-#modal-2, #modal-3, #modal-4, #modal-5, #modal-6, #modal-7{
+#modal-2, #modal-3, #modal-4, #modal-5, #modal-6, #modal-7, #modal-8{
   z-index: 99;
 }
 .modal__container {

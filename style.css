@@ -119,45 +119,55 @@ a {
 .navigasi {
     margin-top: 30px;
 }
-.pencapaian{
-	margin: 10px;
-	padding: 10px;
-	border: 1px solid var(--garis);
+
+.pencapaian {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid var(--garis);
 }
-.penting{
-	display: flex;
-	margin: 10px;
+
+.penting {
+    display: flex;
+    margin: 10px;
 }
-.milikmu{
-	border: 1px solid var(--garis);
-	border-radius: 50px;
-	padding: 10px;
-	display: flex;
-	justify-content: space-between;
-	width: 150px;
-	background: var(--cool);
+
+.milikmu {
+    border: 1px solid var(--garis);
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    background: var(--cool);
 }
-.milikmu .kiri, .milikmu .kanan{
-	display: flex;
-	align-items: center;
+
+.milikmu .kiri,
+.milikmu .kanan {
+    display: flex;
+    align-items: center;
 }
-.milikmu svg{
-	width: 20px;
-	margin-right: 5px;
+
+.milikmu svg {
+    width: 20px;
+    margin-right: 5px;
 }
-.list-pencapaian{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+
+.list-pencapaian {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.list-pencapaian .kiri{
-	display: flex;
-	align-items: center;
+
+.list-pencapaian .kiri {
+    display: flex;
+    align-items: center;
 }
-.list-pencapaian svg{
-	width: 20px;
-	margin-right: 10px;
+
+.list-pencapaian svg {
+    width: 20px;
+    margin-right: 10px;
 }
+
 .nav {
     display: flex;
     font-weight: 900;
@@ -436,7 +446,9 @@ footer a {
     margin-bottom: 5px;
 }
 
-footer a:hover, .modal-tanya {
+footer a:hover,
+.modal-tanya,
+.dilihat a {
     border-bottom: 2px solid var(--tem);
 }
 
@@ -464,9 +476,11 @@ footer a:hover, .modal-tanya {
     font-family: 'Acme', sans-serif;
     color: #fff;
 }
-.tanya textarea:focus::placeholder{
-	color: var(--tem);
+
+.tanya textarea:focus::placeholder {
+    color: var(--tem);
 }
+
 .pendukung {
     margin-top: 10px;
     display: flex;
@@ -501,9 +515,11 @@ footer a:hover, .modal-tanya {
     padding: 25px;
     background: var(--bg);
 }
+
 .mytabs input[type="radio"] {
     display: none;
 }
+
 .mytabs label {
     padding: 10px;
     border-radius: 20px;
@@ -521,52 +537,61 @@ footer a:hover, .modal-tanya {
     display: none;
     overflow-x: scroll;
 }
+
 .mytabs .tab h2 {
     font-size: 3em;
 }
 
-.mytabs input[type='radio']:checked + label + .tab {
+.mytabs input[type='radio']:checked+label+.tab {
     display: block;
 }
 
-.mytabs input[type="radio"]:checked + label {
+.mytabs input[type="radio"]:checked+label {
     background: var(--tem);
 }
-.mytabs input[type="radio"]:hover + label{
-	background: var(--tem);
+
+.mytabs input[type="radio"]:hover+label {
+    background: var(--tem);
 }
 
 table {
-  background: var(--cool);
-  margin-top: 30px;
-  border-collapse: collapse;
+    background: var(--cool);
+    margin-top: 30px;
+    border-collapse: collapse;
 }
-thead{
-  background: var(--garis);
+
+thead {
+    background: var(--garis);
 }
+
 th {
-  color: white;
-  font-size: 0.85em;
-  font-weight: 200;
-  padding: 0.5em 1em;
-  text-align: left;
+    color: white;
+    font-size: 0.85em;
+    font-weight: 200;
+    padding: 0.5em 1em;
+    text-align: left;
 }
+
 td {
-  color: #fff;
-  font-weight: 400;
-  padding: 0.5em 1em;
+    color: #fff;
+    font-weight: 400;
+    padding: 0.5em 1em;
 }
+
 .disabled td {
-  color: #4F5F64;
+    color: #4F5F64;
 }
+
 tbody tr {
-  transition: background 0.25s ease;
+    transition: background 0.25s ease;
 }
+
 tbody tr:hover {
-  background: var(--tem);
+    background: var(--tem);
 }
-.table a{
-	border-bottom: 1px solid var(--tem);
+
+.table a {
+    border-bottom: 1px solid var(--tem);
 }
 
 
@@ -578,70 +603,96 @@ tbody tr:hover {
     padding: 10px;
     margin-top: 20px;
 }
-.isi-tanya-container p{
-	text-align: center;
-	color: var(--tem);
+
+.isi-tanya-container p {
+    text-align: center;
+    font-size: 10pt;
 }
-.isi-tanya-notif{
-	padding: 10px;
-	margin-bottom: 50px;
+
+.isi-tanya-notif {
+    padding: 10px;
+    margin-bottom: 50px;
 }
-.container .rangking-container{
-	display: flex;
-	justify-content: center;
+
+.container .rangking-container {
+    display: flex;
+    justify-content: center;
 }
-.home .isi-rangking-container{
-	padding: 10px;
-	margin: 5px;
-	margin-bottom: 50px;
+
+.home .isi-rangking-container {
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 50px;
 }
-.container .isi-rangking-container{
-	padding: 10px;
-	width: 90%;
-	margin-bottom: 50px;
+
+.container .isi-rangking-container {
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 50px;
 }
-.container .isi-rangking{
-	border-bottom: 1px solid var(--garis);
-	border-top: none;
-	padding-top: 5;
-	padding-bottom: 10px;
+
+.container .isi-rangking {
+    border-bottom: 1px solid var(--garis);
+    border-top: none;
+    padding-top: 5;
+    padding-bottom: 10px;
 }
-.isi-rangking{
-	display: flex;
-	border-top: 1px solid var(--garis);
-	justify-content: space-between;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	align-items: center;
+
+.isi-rangking {
+    display: flex;
+    border-top: 1px solid var(--garis);
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
 }
-.isi-rangking .kiri{
-	display: flex;
-	align-items: center;
+
+.isi-rangking .kiri {
+    display: flex;
+    align-items: center;
 }
-.isi-rangking img{
-	width: 30px;
-	height: 30px;
-	margin-right: 10px;
-	border-radius: 100%;
+
+.isi-rangking img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 100%;
 }
-.isi-rangking svg{
-	width: 10px;
+
+.isi-rangking svg {
+    width: 10px;
 }
-.notif{
-	border: 1px solid var(--garis);
-	padding: 10px;
-	margin-top: 10px;
-	font-weight: 100;
-	margin-bottom: 10px;
+
+.notif {
+    border: 1px solid var(--tem);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: 100;
+    margin-bottom: 30px;
 }
-.notif h3{
-	color: var(--tem);
+
+.notif h3 {
+    color: var(--tem);
 }
-.notif .orang{
-	color: var(--tem);
+
+.notif .orang {
+    color: var(--tem);
 }
-.isi-tanya-container a .notif:hover{
-	background: var(--garis);
+
+.notif .info .dilihat {
+    background: var(--garis);
+    padding: 5px;
+    font-size: 10pt;
+    border-radius: 20px;
+}
+
+.notif .info .dilihat svg {
+    margin-right: 5px;
+}
+
+.isi-tanya-container a .notif:hover {
+    background: var(--garis);
 }
 
 .isi-tanya {
@@ -701,6 +752,11 @@ tbody tr:hover {
 
 .container-jawab {
     float: right;
+}
+
+.container-jawab svg {
+    width: 10px;
+    margin-right: 5px;
 }
 
 .container-jawab .tombol-tanya {
@@ -764,7 +820,7 @@ tbody tr:hover {
         padding-right: 0;
     }
 
-    .mobile .home .search-wrapper input:focus::placeholder {
+    .mobile .home input:focus::placeholder {
         color: var(--tem);
     }
 
@@ -781,47 +837,59 @@ tbody tr:hover {
         padding: 5px;
         border-radius: 10px;
     }
-    .mobile .filter .keluar{
-    	color: var(--tem);
+
+    .mobile .filter .keluar {
+        color: var(--tem);
     }
-    .mobile .add-tanya{
-    	border-bottom: 1px solid var(--garis);
-    	border-top: 1px solid var(--garis);
-    	margin-bottom: 20px;
+
+    .mobile .add-tanya {
+        border-top: 1px solid var(--garis);
+        margin-bottom: 20px;
     }
-    .mobile .tanya{
-    	margin-bottom: 5px;
+
+    .mobile .tanya {
+        margin-bottom: 5px;
     }
-    .mobile .tanya textarea{
-    	font-size: 12pt;
+
+    .mobile .tanya textarea {
+        font-size: 12pt;
     }
+
     .mobile .pendukung {
-    	padding: 10px;
+        padding: 10px;
     }
-     .mobile .pendukung a svg {
-    width: 20px;
-    color: var(--tem);
-}
-.tombol-tanya{
-	padding: 5px;
-}
-    .mobile .rangking-container{
-    	display: flex;
-    	justify-content: center;
+
+    .mobile .pendukung a svg {
+        width: 20px;
+        color: var(--tem);
     }
-    .mobile .rangking{
-    	margin-top: 20px;
+
+    .tombol-tanya {
+        padding: 5px;
     }
-    .mobile .title-container .title{
-    	font-size: 12pt;
+
+    .mobile .rangking-container {
+        display: flex;
+        justify-content: center;
     }
-    .mobile .profile{
-    	padding: 5px;
-    	font-size: 10pt;
+
+    .mobile .rangking {
+        margin-top: 20px;
     }
-    .mobile .profile img{
-    	width: 25px;
+
+    .mobile .title-container .title {
+        font-size: 12pt;
     }
+
+    .mobile .profile {
+        padding: 5px;
+        font-size: 10pt;
+    }
+
+    .mobile .profile img {
+        width: 25px;
+    }
+
     .mobile .isi-tanya-container {
         margin-bottom: 50px;
     }
@@ -830,37 +898,78 @@ tbody tr:hover {
         -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
         animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     }
-    .home .penting{
-    	margin-top: 20px;
-    	margin-bottom: 0;
+
+    .home .penting {
+        margin-top: 20px;
+        margin-bottom: 0;
     }
-    .mobile .isi-tanya-container .pencapaian{
-    	background: var(--cool);
+
+    .mobile .isi-tanya-container .pencapaian {
+        background: var(--cool);
     }
-    .mobile .list-pencapaian .kiri svg{
-    	width: 40px;
+
+    .mobile .list-pencapaian .kiri svg {
+        width: 40px;
     }
-    .mobile .list-pencapaian .kanan{
-    	display: flex;
-    	justify-content: center;
-    	align-items: center;
+
+    .mobile .list-pencapaian .kanan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .mobile .list-pencapaian .kanan svg{
-    	width: 10px;
+
+    .mobile .list-pencapaian .kanan svg {
+        width: 10px;
     }
-    .mobile label{
-    	background: var(--cool);
-    	border: 0;
-    	border-radius: 0;
-    	margin: 0;
+
+    .mobile .mytabs label {
+        background: var(--cool);
+        border: 0;
+        padding: 10px;
+        border-radius: 0;
+        margin: 0;
     }
-    .mobile .mytabs input[type="radio"]:hover + label{
-	background: var(--garis);
-	}
-	.mobile .mytabs input[type="radio"]:checked + label {
-    background: var(--garis);
-	}
-	.mobile .mytabs{
-		margin-bottom: 50px;
-	}
+
+    .mobile .mytabs label svg {
+        width: 15px;
+    }
+
+    .mobile .mytabs input[type="radio"]:hover+label {
+        background: var(--garis);
+    }
+
+    .mobile .mytabs input[type="radio"]:checked+label {
+        background: var(--garis);
+    }
+
+    .mobile .mytabs {
+        margin-bottom: 50px;
+    }
+
+    .mobile .mytabs .isi-tanya-container .tanyaan-nya {
+        font-size: 12pt;
+    }
+
+    .mobile .mytabs .isi-tanya-container .container-jawab {
+        margin: 10px;
+    }
+
+    .mobile .tanyaan-nya img {
+        width: 200px;
+        height: auto;
+        margin-top: 10px;
+        border-radius: 20px;
+    }
+
+    .mobile .hasil-jawab .tanya {
+        border: 1px solid var(--tem);
+        border-radius: 20px;
+       margin-bottom: 20px;
+    }
+    .mobile .hasil-jawab .tanya textarea::placeholder{
+        color: var(--tem);
+    }
+    .mobile .hasil-jawab .tanya .tombol-tanya{
+    	padding: 5px 15px;
+    }
 }
