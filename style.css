@@ -250,6 +250,7 @@ a {
 .nav svg {
     width: 30px;
     margin-right: 20px;
+    color: var(--abu);
 }
 
 .navigasi .active {
@@ -386,6 +387,7 @@ a {
 
 .isi-container .profile svg {
     width: 15px;
+    color: var(--abu);
 }
 
 .akhir-rangking {
@@ -396,6 +398,7 @@ a {
 .tingkatkan-poin {
     margin-top: 50px;
     background: var(--cool);
+    border-radius: 20px;
 }
 .tingkatkan-poin .label{
 	text-align: center;
@@ -415,7 +418,7 @@ a {
 
 .label {
     padding: 10px;
-    background: var(--tem);
+    background: var(--garis);
 }
 
 .isi-tingkatkan-poin {
@@ -441,12 +444,14 @@ a {
 
 .icon-poin svg{
 	width: 25px;
+	color: var(--tem);
 }
 .text-poin {
     font-size: 11pt;
 }
 
 .text-poin svg {
+    color: var(--org);
     width: 12px;
 }
 
@@ -462,14 +467,14 @@ a {
 
 .tiga {
     text-align: center;
-    background: var(--garis);
+    background: var(--bg);
     padding: 5px 20px;
-    width: 50px;
+    width: 90%;
     border-radius: 10px;
 }
 
 .tiga:hover {
-    background: var(--bg);
+    background: var(--garis);
 }
 .tanya {
     padding: 20px;
@@ -638,11 +643,6 @@ tbody tr:hover {
     margin-top: 20px;
 }
 
-.isi-tanya{
-	cursor: pointer;
-	-webkit-box-shadow: 0px 0px 15px -5px #15202B; 
-box-shadow: 0px 0px 15px -5px #15202B;
-}
 .isi-tanya-container p {
     text-align: center;
     font-size: 10pt;
@@ -699,6 +699,7 @@ box-shadow: 0px 0px 15px -5px #15202B;
 }
 
 .isi-rangking svg {
+    color: var(--abu);
     width: 10px;
 }
 
@@ -739,6 +740,7 @@ box-shadow: 0px 0px 15px -5px #15202B;
     padding: 10px;
     border-radius: 10px;
     background: var(--cool);
+    border: 1px solid var(--tem);
     font-size: 10pt;
 }
 
@@ -777,6 +779,7 @@ box-shadow: 0px 0px 15px -5px #15202B;
 
 .dilihat svg {
     width: 12px;
+    color: var(--abu);
 }
 
 .paling-atas {
@@ -799,6 +802,7 @@ box-shadow: 0px 0px 15px -5px #15202B;
 
 .container-jawab .tombol-tanya {
     background: var(--garis);
+    border: 1px solid var(--tem);
     cursor: pointer;
 }
 .container-jawab .tombol-tanya:hover{
@@ -852,7 +856,7 @@ box-shadow: 0px 0px 15px -5px #15202B;
         left: 0;
         z-index: 99;
         bottom: 0;
-        height: 25px;
+        height: 30px;
         display: flex;
         justify-content: space-around;
         align-items: center;
