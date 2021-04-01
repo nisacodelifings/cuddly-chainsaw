@@ -314,7 +314,7 @@ a {
 }
 
 .search-input::placeholder {
-    color: var(--abu);
+    color: #fff;
 }
 
 /* Scrollbar */
@@ -482,17 +482,17 @@ a {
     font-size: 14pt;
     outline: 0;
     border: none;
-    font-family: 'Hind', sans-serif;
     background: var(--bg);
     color: var(--tem);
     height: auto;
     width: 100%;
+    font-family: 'Acme', sans-serif;
     resize: none;
 }
 
 .tanya textarea::placeholder {
-    font-family: 'Hind', sans-serif;
-    color: var(--abu);
+    font-family: 'Acme', sans-serif;
+    color: #fff;
 }
 
 .tanya textarea:focus::placeholder {
