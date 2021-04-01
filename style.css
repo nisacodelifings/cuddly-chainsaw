@@ -952,10 +952,6 @@ tbody tr:hover {
         width: 25px;
     }
 
-    .mobile .isi-tanya-container {
-        margin-bottom: 50px;
-    }
-
     .mobile .container-banyak {
         -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
         animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -969,7 +965,9 @@ tbody tr:hover {
     .mobile .isi-tanya-container .pencapaian {
         background: var(--cool);
     }
-
+    .mobile .list-pencapaian .kiri{
+    	margin-right: 20px;
+    }
     .mobile .list-pencapaian .kiri svg {
         width: 40px;
     }
@@ -1009,6 +1007,10 @@ tbody tr:hover {
 
     .mobile .mytabs label svg {
         width: 15px;
+        color: var(--tem);
+    }
+    .mobile .mytabs label{
+    	color: var(--tem);
     }
 
     .mobile .mytabs input[type="radio"]:hover+label {
@@ -1021,6 +1023,7 @@ tbody tr:hover {
 
     .mobile .mytabs {
         margin-bottom: 50px;
+        margin-top: 0;
     }
 
     .mobile .mytabs .isi-tanya-container .tanyaan-nya {
