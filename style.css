@@ -18,6 +18,14 @@ body {
     color: white;
 }
 
+.light-mode {
+    background-color: white;
+    color: #000;
+}
+
+.light-mode svg {
+    color: white;
+}
 
 a {
     text-decoration: none;
@@ -538,8 +546,21 @@ footer a:hover,
     overflow-x: scroll;
 }
 
+.mytabs label svg {
+    width: 15px;
+}
+
+.mytabs .tab b {
+    font-weight: 100;
+    color: var(--tem);
+}
+
 .mytabs .tab h2 {
     font-size: 3em;
+}
+
+.mytabs .tab p {
+    margin-top: 10px;
 }
 
 .mytabs input[type='radio']:checked+label+.tab {
@@ -768,6 +789,22 @@ tbody tr:hover {
     font-size: 15pt;
 }
 
+.tanyaan-nya img {
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.navigasi-tanya-jawab svg {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.navigasi-tanya-jawab a:hover {
+    color: var(--tem);
+}
+
 /* dekstop styles */
 @media screen and (min-width: 1024px) {
     .mobile {
@@ -930,6 +967,21 @@ tbody tr:hover {
         margin: 0;
     }
 
+    .mobile .mytabs input[type="radio"]:first-child+label {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .mobile .mytabs-tanya input[type="radio"]:nth-last-child(3)+label {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .mobile .mytabs-profil label:nth-child(14) {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
     .mobile .mytabs label svg {
         width: 15px;
     }
@@ -964,12 +1016,14 @@ tbody tr:hover {
     .mobile .hasil-jawab .tanya {
         border: 1px solid var(--tem);
         border-radius: 20px;
-       margin-bottom: 20px;
+        margin-bottom: 20px;
     }
-    .mobile .hasil-jawab .tanya textarea::placeholder{
+
+    .mobile .hasil-jawab .tanya textarea::placeholder {
         color: var(--tem);
     }
-    .mobile .hasil-jawab .tanya .tombol-tanya{
-    	padding: 5px 15px;
+
+    .mobile .hasil-jawab .tanya .tombol-tanya {
+        padding: 5px 15px;
     }
 }
