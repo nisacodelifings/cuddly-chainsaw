@@ -5,7 +5,6 @@
     --garis: #253341;
     --tem: #0099ff;
     --cool: #192734;
-    --abu: #b4bfb7;
 }
 
 * {
@@ -160,6 +159,7 @@ a {
 .milikmu svg {
     width: 20px;
     margin-right: 5px;
+    color: var(--tem);
 }
 
 .list-pencapaian {
@@ -176,6 +176,7 @@ a {
 .list-pencapaian svg {
     width: 20px;
     margin-right: 10px;
+    color: var(--tem);
 }
 
 .nav {
@@ -356,6 +357,14 @@ a {
     letter-spacing: 1px;
 }
 
+select{
+	background: var(--garis);
+	color: white;
+	border: 0;
+	padding: 5px;
+	outline: 0;
+}
+
 .simbol svg {
     width: 30px;
     background: var(--bg);
@@ -382,7 +391,7 @@ a {
 
 .isi-container .profile svg {
     width: 15px;
-    color: var(--abu);
+    color: var(--tem);
 }
 
 .akhir-rangking {
@@ -438,7 +447,7 @@ a {
 
 .icon-poin svg{
 	width: 25px;
-	color: var(--abu);
+	color: var(--tem);
 }
 .text-poin {
     font-size: 11pt;
@@ -693,7 +702,7 @@ tbody tr:hover {
 }
 
 .isi-rangking svg {
-    color: var(--abu);
+    color: var(--tem);
     width: 10px;
 }
 
@@ -773,7 +782,7 @@ tbody tr:hover {
 
 .dilihat svg {
     width: 12px;
-    color: var(--abu);
+    color: var(--tem);
 }
 
 .paling-atas {
@@ -792,16 +801,13 @@ tbody tr:hover {
 .container-jawab svg {
     width: 10px;
     margin-right: 5px;
+    color: var(--tem)
 }
 
 .container-jawab .tombol-tanya {
     background: var(--garis);
     border: 1px solid var(--tem);
     cursor: pointer;
-}
-.container-jawab .tombol-tanya:hover{
-	background: var(--bg);
-	color: var(--tem);
 }
 
 .tanyaan-nya {
