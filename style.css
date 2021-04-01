@@ -5,6 +5,8 @@
     --garis: #253341;
     --tem: #0099ff;
     --cool: #192734;
+    --abu: #F5F8FA;
+    --biru: #146182;
 }
 
 * {
@@ -23,8 +25,150 @@ body {
     color: #000;
 }
 
-.light-mode svg {
-    color: white;
+.light-mode .logo{
+	background-color: var(--tem);
+	color: white;
+}
+
+.light-mode .logo svg{
+	color: white;
+}
+
+.light-mode .search-wrapper{
+	border-radius: 20px;
+	background: var(--abu);
+}
+.light-mode .search-wrapper .search-input{
+	background: var(--abu);
+	border-radius: 20px;
+}
+.light-mode .isi-tanya-container{
+	margin-bottom: 30px;
+}
+.light-mode .isi-tanya{
+	background: var(--abu);
+}
+.light-mode .waktu span{
+	background: var(--garis);
+}
+.light-mode .dilihat svg{
+	color: var(--garis);
+}
+.light-mode .hasil-jawab .tanya, .light-mode .hasil-jawab .tanya textarea{
+	background: none;
+	border: none;
+}
+
+.light-mode ::selection{
+	background: var(--tem);
+	color: white;
+}
+
+.light-mode .mobile .navbar{
+	background: var(--tem);
+}
+.light-mode .mobile .navbar svg{
+	color: white;
+}
+.light-mode .mobile .navbar svg.active{
+	width: 20px;
+	padding: 5px;
+	border-radius: 20px;
+	background: var(--biru);
+	color: white;
+}
+.light-mode .container-jawab a span{
+	background: var(--tem);
+	border: 0;
+}
+.light-mode .container-jawab a span svg{
+	color: white;
+}
+.light-mode .tanya, .light-mode .tanya textarea{
+	background: white;
+	border: 0;
+}
+.light-mode .tanya{
+	border-bottom: 1px solid var(--tem);
+}
+.light-mode .tanya textarea::placeholder{
+	color: var(--tem);
+}
+.light-mode .mytabs-tanya, .light-mode .mytabs-tanya .tab{
+	background: white;
+}
+.light-mode .mytabs input[type='radio']+label{
+	background: var(--tem);
+	color: white;
+}
+.light-mode .mytabs input[type='radio']+label svg{
+	color: white;
+}
+.light-mode .mobile .mytabs input[type='radio']:checked+label{
+	background: var(--biru);
+}
+.light-mode .mobile .add-tanya{
+	border-top: 0;
+}
+.light-mode .isi-rangking .kanan svg{
+	color: var(--garis);
+}
+.light-mode .isi-rangking{
+	border-top: none;
+}
+.light-mode select, .light-mode .notif .info .dilihat{
+	background: var(--tem);
+}
+.light-mode .notif span{
+	color: var(--garis);
+}
+
+.light-mode .notif .info .dilihat span{
+	color: white;
+}
+.light-mode .notif .info .dilihat svg{
+	color: white;
+}
+.light-mode .pencapaian{
+	background: var(--abu);
+	border-radius: 20px;
+	border: none;
+}
+.light-mode .milikmu{
+	background: var(--tem);
+	border: 0;
+	color: white;
+}
+.light-mode .milikmu svg{
+	color: white;
+}
+.light-mode .profile{
+	background: var(--abu);
+	border: 0;
+	color: var(--garis);
+}
+.light-mode .profile img{
+	border-color: var(--tem);
+}
+
+.light-mode .mobile .isi-tanya-container .pencapaian{
+	background: var(--tem);
+	color: white;
+}
+.light-mode .mobile .isi-tanya-container .pencapaian svg{
+	color: white;
+}
+.light-mode .mytabs{
+	background: none;
+}
+.light-mode .mytabs .tab{
+	background: none;
+}
+.light-mode thead{
+	background: var(--biru);
+}
+.light-mode tbody{
+	background: var(--tem);
 }
 
 a {
@@ -94,6 +238,11 @@ a {
     justify-content: center;
     background: var(--garis);
     align-items: center;
+}
+
+.logo svg{
+	width: 20px;
+	margin-left: 10px;
 }
 
 .logo span {
@@ -278,9 +427,13 @@ a {
     border-radius: 20px;
 }
 
-.urut svg:hover {
+.urut svg:hover{
     background: var(--garis);
     border-radius: 20px;
+}
+
+.toggle:hover{
+	color: var(--tem);
 }
 
 ::selection {
@@ -295,12 +448,19 @@ a {
     align-items: center;
     width: 100%;
     overflow: hidden;
+    font-weight: 100;
     padding: 2px;
     border-radius: 30px;
 }
 
 .search-wrapper input:focus::placeholder {
     color: var(--tem);
+    font-weight: 100;
+}
+.search-wrapper svg{
+    color: var(--tem);
+	width: 15px;
+	margin: 10px;
 }
 
 .search-input {
@@ -309,18 +469,19 @@ a {
     outline: none;
     height: 30px;
     padding: 0 20px;
+    font-weight: 100;
     font-size: 12px;
     background: var(--cool);
     color: var(--tem);
 }
 
 .search-input::placeholder {
-    color: #fff;
+    color: var(--tem);
 }
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -640,6 +801,9 @@ tbody tr:hover {
 .container-jawab a span:hover {
     background: var(--tem);
 }
+.container-jawab a span:hover svg{
+    color: var(--garis);
+}
 
 .isi-tanya-container {
     padding: 10px;
@@ -747,6 +911,10 @@ tbody tr:hover {
     font-size: 10pt;
 }
 
+.container .isi-tanya-jawab{
+	padding: 20px;
+}
+
 .ttg-tanyaan {
     font-weight: 100;
     display: flex;
@@ -815,7 +983,7 @@ tbody tr:hover {
 }
 
 .tanyaan-nya img {
-    width: 80%;
+    width: 90%;
     height: auto;
     margin-top: 10px;
     border-radius: 20px;
@@ -879,6 +1047,7 @@ tbody tr:hover {
         padding-top: 5px;
         padding-bottom: 5px;
         border-radius: 0;
+        font-weight: 100;
         padding-right: 0;
     }
 

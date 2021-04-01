@@ -89,6 +89,7 @@ function addModalContentHeight(type) {
         <div class="main menu">
             <div class="logo">
                 <span>Pitakon Schoolmedia</span>
+                <span class="toggle" onclick="toggle_mode()"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg></span>
             </div>
             <a href="profil.html">
                 <div class="profile">
@@ -145,183 +146,9 @@ function addModalContentHeight(type) {
                     </div>
                 </div>
             </div>
-            <div class="rangking">
-                <div class="title-container">
-                    <div class="title">Rangking Matematika</div>
-                </div>
-                <div class="isi-container">
-                    <a href="profil.html">
-                        <div class="profile">
-                            <img src="72.jpg" alt="">
-                            <div class="asal-sekolah">
-                                <div>Annisa Puspitasari</div>
-                                <span><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-                                    </svg> 3000</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="profil.html">
-                        <div class="profile">
-                            <img src="72.jpg" alt="">
-                            <div class="asal-sekolah">
-                                <div>Annisa Puspitasari</div>
-                                <span><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-                                    </svg> 3000</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="profil.html">
-                        <div class="profile">
-                            <img src="72.jpg" alt="">
-                            <div class="asal-sekolah">
-                                <div>Annisa Puspitasari</div>
-                                <span><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-                                    </svg> 3000</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="profil.html">
-                        <div class="profile">
-                            <img src="72.jpg" alt="">
-                            <div class="asal-sekolah">
-                                <div>Annisa Puspitasari</div>
-                                <span><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-                                    </svg> 3000</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="rangking.html">
-                        <div class="profile akhir-rangking">
-                            Lihat semua
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="main konten">
-            <div class="navbar">
-                <div class="title">Beranda</div>
-                <div class="urut">
-                    <a href="index.html"><svg class="w-6 h-6 active" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path>
-                        </svg></a>
-                    <a href="tanya.html"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd"></path>
-                        </svg></a>
-                    <a href="rangking.html">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path>
-                        </svg>
-                    </a>
-                    <a href="notifikasi.html">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"></path>
-                        </svg>
-                    </a></div>
-            </div>
-            <div class="isi-tanya-container">
-                <div class="isi-tanya">
-                    <div class="container-banyak">
-                        <div class="paling-atas">
-                            <h4>B. Indonesia</h4>
-                            <div class="waktu"><span>Baru saja</span></div>
-                            <div class="ttg-tanyaan">
-                                <div class="oleh">
-                                    dari <a href=""><span>Annisa Puspitasari</span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini <a href="https://id-static.z-dn.net/files/d81/0b18284ca398b10b4565fe2adc4c8983.jpg"><img src="https://id-static.z-dn.net/files/d81/0b18284ca398b10b4565fe2adc4c8983.jpg" alt=""></a></div>
-                        <div class="info">
-                            <div class="dilihat">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z"></path>
-                                </svg>
-                                <span>SMP/MTS</span>
-                            </div>
-                            <div class="dilihat">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M9.243 3.03a1 1 0 01.727 1.213L9.53 6h2.94l.56-2.243a1 1 0 111.94.486L14.53 6H17a1 1 0 110 2h-2.97l-1 4H15a1 1 0 110 2h-2.47l-.56 2.242a1 1 0 11-1.94-.485L10.47 14H7.53l-.56 2.242a1 1 0 11-1.94-.485L5.47 14H3a1 1 0 110-2h2.97l1-4H5a1 1 0 110-2h2.47l.56-2.243a1 1 0 011.213-.727zM9.03 8l-1 4h2.938l1-4H9.031z" clip-rule="evenodd"></path>
-                                </svg>
-                                <span>Ujian Nasional</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hasil-jawab">
-                    <div class="tanya">
-                        <textarea name="" type="text" placeholder="Ketik jawaban-mu disini.."></textarea>
-                        <div class="pendukung">
-                            <div class="kiri">
-                                <a href="">
-                                    <svg class="w-6 h-6" style="margin-right:10px" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                                <a href="">
-                                    <svg class="w-6 h-6" style="margin-right: 10px" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 006 6.93V17H6a1 1 0 100 2h8a1 1 0 100-2h-3v-2.07z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                                <a href="">
-                                    <svg class="w-6 h-6" style="margin-right: 10px" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M4.649 3.084A1 1 0 015.163 4.4 13.95 13.95 0 004 10c0 1.993.416 3.886 1.164 5.6a1 1 0 01-1.832.8A15.95 15.95 0 012 10c0-2.274.475-4.44 1.332-6.4a1 1 0 011.317-.516zM12.96 7a3 3 0 00-2.342 1.126l-.328.41-.111-.279A2 2 0 008.323 7H8a1 1 0 000 2h.323l.532 1.33-1.035 1.295a1 1 0 01-.781.375H7a1 1 0 100 2h.039a3 3 0 002.342-1.126l.328-.41.111.279A2 2 0 0011.677 14H12a1 1 0 100-2h-.323l-.532-1.33 1.035-1.295A1 1 0 0112.961 9H13a1 1 0 100-2h-.039zm1.874-2.6a1 1 0 011.833-.8A15.95 15.95 0 0118 10c0 2.274-.475 4.44-1.332 6.4a1 1 0 11-1.832-.8A13.949 13.949 0 0016 10c0-1.993-.416-3.886-1.165-5.6z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="kanan">
-                                <a href=""><span class="tombol-tanya">Jawab</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="isi-tanya">
-                        <div class="container-banyak">
-                            <div class="paling-atas">
-                                <h4>Annisa Puspitasari</h4>
-                                <div class="ttg-tanyaan">
-                                    <div class="oleh">
-                                        <a href=""><span>@annisa_pussa</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tanyaan-nya">Jadi, A4 + 5 = 7 itu dari 504 / 60 ya...</div><br>
-                            <div class="info">
-                                <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>Baru saja</span>
-                                </div>
-                                <div class="dilihat">
-                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
-                                    </svg>
-                                    <span>1200</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container-jawab">
-                            <a href=""><span class="tombol-tanya">Hey, Terimakasih <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
-                                    </svg></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="navigasi-tanya-jawab">
-                    <a href="index.html"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>Kembali</a>
-                </div>
-            </div>
-        </div>
-        <div class="main others">
-            <div class="search-wrapper">
-                <input class="search-input" type="text" placeholder="Cari Pertanyaan-Mu...">
-            </div>
-            <div class="tingkatkan-poin">
-                <div class="label">Tingkatkan Poin dengan Membantu menjawab Pertanyaan Berikut :</div>
+            <!-- tantangan -->
+            <div class="tingkatkan-poin tingkatkan-poin-utama">
+                <div class="label">Tantangan-mu :</div>
                 <div class="isi-tingkatkan-poin">
                     <div class="poin">
                         <div class="icon-poin">
@@ -415,6 +242,251 @@ function addModalContentHeight(type) {
                             </div>
                         </div>
                     </div>
+                    <div class="poin">
+                        <div class="icon-poin">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M7 2a1 1 0 00-.707 1.707L7 4.414v3.758a1 1 0 01-.293.707l-4 4C.817 14.769 2.156 18 4.828 18h10.343c2.673 0 4.012-3.231 2.122-5.121l-4-4A1 1 0 0113 8.172V4.414l.707-.707A1 1 0 0013 2H7zm2 6.172V4h2v4.172a3 3 0 00.879 2.12l1.027 1.028a4 4 0 00-2.171.102l-.47.156a4 4 0 01-2.53 0l-.563-.187a1.993 1.993 0 00-.114-.035l1.063-1.063A3 3 0 009 8.172z" clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                        <div class="text-poin">
+                            Jawab 5 Pertanyaan Kimia dalam 48 jam untuk memperoleh <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                            </svg> 100
+                            <div class="desc-poin">
+                                <div class="satu">
+                                    <span>0</span>/5
+                                </div>
+                                <div class="dua">
+                                    <span>2</span>d
+                                </div>
+                                <div class="tiga">
+                                    <a href="">Mulai</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poin">
+                        <div class="icon-poin">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M7 2a1 1 0 00-.707 1.707L7 4.414v3.758a1 1 0 01-.293.707l-4 4C.817 14.769 2.156 18 4.828 18h10.343c2.673 0 4.012-3.231 2.122-5.121l-4-4A1 1 0 0113 8.172V4.414l.707-.707A1 1 0 0013 2H7zm2 6.172V4h2v4.172a3 3 0 00.879 2.12l1.027 1.028a4 4 0 00-2.171.102l-.47.156a4 4 0 01-2.53 0l-.563-.187a1.993 1.993 0 00-.114-.035l1.063-1.063A3 3 0 009 8.172z" clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                        <div class="text-poin">
+                            Jawab 5 Pertanyaan Kimia dalam 48 jam untuk memperoleh <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                            </svg> 100
+                            <div class="desc-poin">
+                                <div class="satu">
+                                    <span>0</span>/5
+                                </div>
+                                <div class="dua">
+                                    <span>2</span>d
+                                </div>
+                                <div class="tiga">
+                                    <a href="">Mulai</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="poin">
+                        <div class="icon-poin">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M7 2a1 1 0 00-.707 1.707L7 4.414v3.758a1 1 0 01-.293.707l-4 4C.817 14.769 2.156 18 4.828 18h10.343c2.673 0 4.012-3.231 2.122-5.121l-4-4A1 1 0 0113 8.172V4.414l.707-.707A1 1 0 0013 2H7zm2 6.172V4h2v4.172a3 3 0 00.879 2.12l1.027 1.028a4 4 0 00-2.171.102l-.47.156a4 4 0 01-2.53 0l-.563-.187a1.993 1.993 0 00-.114-.035l1.063-1.063A3 3 0 009 8.172z" clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                        <div class="text-poin">
+                            Jawab 5 Pertanyaan Kimia dalam 48 jam untuk memperoleh <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                            </svg> 100
+                            <div class="desc-poin">
+                                <div class="satu">
+                                    <span>0</span>/5
+                                </div>
+                                <div class="dua">
+                                    <span>2</span>d
+                                </div>
+                                <div class="tiga">
+                                    <a href="">Mulai</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main konten">
+            <div class="navbar">
+                <div class="title">Beranda</div>
+                <div class="urut">
+                    <a href="index.html"><svg class="w-6 h-6 active" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path>
+                        </svg></a>
+                    <a href="tanya.html"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd"></path>
+                        </svg></a>
+                    <a href="rangking.html">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path>
+                        </svg>
+                    </a>
+                    <a href="notifikasi.html">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z"></path>
+                        </svg>
+                    </a></div>
+            </div>
+            <div class="isi-tanya-container">
+                <div class="isi-tanya isi-tanya-jawab">
+                    <div class="container-banyak">
+                        <div class="paling-atas">
+                            <h4>B. Indonesia</h4>
+                            <div class="waktu"><span>Baru saja</span></div>
+                            <div class="ttg-tanyaan">
+                                <div class="oleh">
+                                    dari <a href=""><span>Annisa Puspitasari</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tanyaan-nya">Tolong bantu kerjakan 5 soal Phytagoras dibawah ini <a href="https://id-static.z-dn.net/files/d81/0b18284ca398b10b4565fe2adc4c8983.jpg"><img src="https://id-static.z-dn.net/files/d81/0b18284ca398b10b4565fe2adc4c8983.jpg" alt=""></a></div>
+                        <div class="info">
+                            <div class="dilihat">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z"></path>
+                                </svg>
+                                <span>SMP/MTS</span>
+                            </div>
+                            <div class="dilihat">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M9.243 3.03a1 1 0 01.727 1.213L9.53 6h2.94l.56-2.243a1 1 0 111.94.486L14.53 6H17a1 1 0 110 2h-2.97l-1 4H15a1 1 0 110 2h-2.47l-.56 2.242a1 1 0 11-1.94-.485L10.47 14H7.53l-.56 2.242a1 1 0 11-1.94-.485L5.47 14H3a1 1 0 110-2h2.97l1-4H5a1 1 0 110-2h2.47l.56-2.243a1 1 0 011.213-.727zM9.03 8l-1 4h2.938l1-4H9.031z" clip-rule="evenodd"></path>
+                                </svg>
+                                <span>Ujian Nasional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hasil-jawab">
+                    <div class="tanya">
+                        <textarea name="" type="text" placeholder="Ketik jawaban-mu disini.."></textarea>
+                        <div class="pendukung">
+                            <div class="kiri">
+                                <a href="">
+                                    <svg class="w-6 h-6" style="margin-right:10px" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a href="">
+                                    <svg class="w-6 h-6" style="margin-right: 10px" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 006 6.93V17H6a1 1 0 100 2h8a1 1 0 100-2h-3v-2.07z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a href="">
+                                    <svg class="w-6 h-6" style="margin-right: 10px" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M4.649 3.084A1 1 0 015.163 4.4 13.95 13.95 0 004 10c0 1.993.416 3.886 1.164 5.6a1 1 0 01-1.832.8A15.95 15.95 0 012 10c0-2.274.475-4.44 1.332-6.4a1 1 0 011.317-.516zM12.96 7a3 3 0 00-2.342 1.126l-.328.41-.111-.279A2 2 0 008.323 7H8a1 1 0 000 2h.323l.532 1.33-1.035 1.295a1 1 0 01-.781.375H7a1 1 0 100 2h.039a3 3 0 002.342-1.126l.328-.41.111.279A2 2 0 0011.677 14H12a1 1 0 100-2h-.323l-.532-1.33 1.035-1.295A1 1 0 0112.961 9H13a1 1 0 100-2h-.039zm1.874-2.6a1 1 0 011.833-.8A15.95 15.95 0 0118 10c0 2.274-.475 4.44-1.332 6.4a1 1 0 11-1.832-.8A13.949 13.949 0 0016 10c0-1.993-.416-3.886-1.165-5.6z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="kanan">
+                                <a href=""><span class="tombol-tanya">Jawab</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="isi-tanya">
+                        <div class="container-banyak">
+                            <div class="paling-atas">
+                                <h4>Annisa Puspitasari</h4>
+                                <div class="ttg-tanyaan">
+                                    <div class="oleh">
+                                        <a href=""><span>@annisa_pussa</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tanyaan-nya">Jadi, A4 + 5 = 7 itu dari 504 / 60 ya...</div><br>
+                            <div class="info">
+                                <div class="dilihat">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span>Baru saja</span>
+                                </div>
+                                <div class="dilihat">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span>1200</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-jawab">
+                            <a href=""><span class="tombol-tanya">Hey, Terimakasih ya! <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                                    </svg></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navigasi-tanya-jawab">
+                    <a href="index.html"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>Kembali</a>
+                </div>
+            </div>
+        </div>
+        <div class="main others">
+            <div class="search-wrapper">
+                <input class="search-input" type="text" placeholder="Cari Pertanyaan-mu...">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+            </div>
+            <div class="rangking">
+                <div class="title-container">
+                    <div class="title">Rangking Matematika</div>
+                </div>
+                <div class="isi-container">
+                    <a href="profil.html">
+                        <div class="profile">
+                            <img src="72.jpg" alt="">
+                            <div class="asal-sekolah">
+                                <div>Annisa Puspitasari</div>
+                                <span><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                                    </svg> 3000</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="profil.html">
+                        <div class="profile">
+                            <img src="72.jpg" alt="">
+                            <div class="asal-sekolah">
+                                <div>Annisa Puspitasari</div>
+                                <span><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                                    </svg> 3000</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="profil.html">
+                        <div class="profile">
+                            <img src="72.jpg" alt="">
+                            <div class="asal-sekolah">
+                                <div>Annisa Puspitasari</div>
+                                <span><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                                    </svg> 3000</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="profil.html">
+                        <div class="profile">
+                            <img src="72.jpg" alt="">
+                            <div class="asal-sekolah">
+                                <div>Annisa Puspitasari</div>
+                                <span><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                                    </svg> 3000</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="rangking.html">
+                        <div class="profile akhir-rangking">
+                            Lihat semua
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="tingkatkan-poin">
@@ -611,13 +683,6 @@ function addModalContentHeight(type) {
                     </div>
                 </div>
             </div>
-            <!-- footer -->
-            <footer>
-                <a href="">Pitakon Schoolmedia</a>
-                <a href="">Syarat dan Ketentuan</a>
-                <a href="">Tentang Kami</a>
-                <span>&copy; 2021 Schoolmedia</span>
-            </footer>
         </div>
     </div>
     <div class="mobile">
@@ -651,9 +716,11 @@ function addModalContentHeight(type) {
         <div class="home">
             <div class="logo">
                 <span>Pitakon Schoolmedia</span>
+                <span class="toggle" onclick="toggle_mode()"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg></span>
             </div>
             <div class="search-wrapper">
-                <input class="search-input" type="text" placeholder="Cari Pertanyaan-Mu...">
+                <input class="search-input" type="text" placeholder="Cari Pertanyaan-mu...">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
             </div>
             <div class="isi-tanya-container">
                 <div class="isi-tanya">
@@ -737,7 +804,7 @@ function addModalContentHeight(type) {
                             </div>
                         </div>
                         <div class="container-jawab">
-                            <a href=""><span class="tombol-tanya">Hey, Terimakasih <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <a href=""><span class="tombol-tanya">Hey, Terimakasih ya! <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
                                     </svg></span></a>
                         </div>
@@ -748,6 +815,7 @@ function addModalContentHeight(type) {
                 </div>
             </div>
         </div>
+        <script src="toggle.js"></script>
 </body>
 
 </html>
