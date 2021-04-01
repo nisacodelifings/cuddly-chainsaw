@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
 
 :root {
     --bg: #15202B;
     --garis: #253341;
-    --tem: #47A7D9;
+    --tem: #0099ff;
     --cool: #192734;
+    --abu: #b4bfb7;
 }
 
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Hind', sans-serif;
+}
+
+h2{
+    font-family: 'Acme', sans-serif;
 }
 
 body {
     background: var(--bg);
-    font-family: 'Acme', sans-serif;
     color: white;
 }
 
@@ -84,7 +90,7 @@ a {
 
 .others {
     border-left: 1px solid var(--garis);
-    width: 20%;
+    width: 30%;
 }
 
 .logo {
@@ -99,6 +105,7 @@ a {
 .logo span {
     margin-left: 10px;
     font-weight: 700;
+    font-family: 'Acme', sans-serif;
     font-size: 20pt;
 }
 
@@ -263,17 +270,20 @@ a {
 }
 
 .urut svg {
-    color: white;
+    color: var(--tem);
     width: 25px;
-    margin-right: 5px;
+    padding: 5px;
+    margin-right: 10px;
 }
 
 .urut .active {
-    color: var(--tem);
+    background: var(--garis);
+    border-radius: 20px;
 }
 
 .urut svg:hover {
-    color: var(--tem);
+    background: var(--garis);
+    border-radius: 20px;
 }
 
 ::selection {
@@ -282,13 +292,13 @@ a {
 
 .search-wrapper {
     background-color: var(--cool);
-    padding-right: 12px;
     height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     overflow: hidden;
+    padding: 2px;
     border-radius: 30px;
 }
 
@@ -299,17 +309,16 @@ a {
 .search-input {
     border: none;
     flex: 1;
-    margin-right: 50px;
     outline: none;
     height: 30px;
     padding: 0 20px;
-    font-size: 15px;
+    font-size: 12px;
     background: var(--cool);
     color: var(--tem);
 }
 
 .search-input::placeholder {
-    color: white;
+    color: var(--abu);
 }
 
 /* Scrollbar */
@@ -344,8 +353,8 @@ a {
 }
 
 .rangking .title {
-    font-weight: 300;
     font-size: 15pt;
+    font-weight: bold;
     color: var(--tem);
     margin-bottom: 10px;
     letter-spacing: 1px;
@@ -386,16 +395,32 @@ a {
 
 .tingkatkan-poin {
     margin-top: 50px;
+    background: var(--cool);
+}
+.tingkatkan-poin .label{
+	text-align: center;
+	padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 15pt;
+}
+.isi-tingkatkan-poin{
+	color: var(--abu);
+	height: 10vh;
+	font-weight: 100;
+	border-radius: 20px;
+}
+.tingkatkan-poin-utama .isi-tingkatkan-poin{
+	height: 90vh;
 }
 
 .label {
-    border-bottom: 1px solid var(--garis);
-    padding-bottom: 5px;
+    padding: 10px;
+    background: var(--tem);
 }
 
 .isi-tingkatkan-poin {
     height: 30vh;
-    overflow: scroll;
+    overflow: auto;
     padding: 10px;
     padding-top: 20px;
 }
@@ -414,6 +439,9 @@ a {
     padding: 10px;
 }
 
+.icon-poin svg{
+	width: 25px;
+}
 .text-poin {
     font-size: 11pt;
 }
@@ -435,31 +463,14 @@ a {
 .tiga {
     text-align: center;
     background: var(--garis);
-    padding: 3px;
+    padding: 5px 20px;
     width: 50px;
     border-radius: 10px;
 }
 
 .tiga:hover {
-    background: var(--tem);
+    background: var(--bg);
 }
-
-footer {
-    margin-top: 20px;
-    font-size: 9pt;
-}
-
-footer a {
-    margin-right: 7px;
-    margin-bottom: 5px;
-}
-
-footer a:hover,
-.modal-tanya,
-.dilihat a {
-    border-bottom: 2px solid var(--tem);
-}
-
 .tanya {
     padding: 20px;
     border-bottom: 1px solid var(--garis);
@@ -472,7 +483,7 @@ footer a:hover,
     font-size: 14pt;
     outline: 0;
     border: none;
-    font-family: 'Acme', sans-serif;
+    font-family: 'Hind', sans-serif;
     background: var(--bg);
     color: var(--tem);
     height: auto;
@@ -481,8 +492,8 @@ footer a:hover,
 }
 
 .tanya textarea::placeholder {
-    font-family: 'Acme', sans-serif;
-    color: #fff;
+    font-family: 'Hind', sans-serif;
+    color: var(--abu);
 }
 
 .tanya textarea:focus::placeholder {
@@ -512,6 +523,8 @@ footer a:hover,
     padding: 10px;
     border-radius: 5px;
     font-size: 9pt;
+    -webkit-box-shadow: 0px 0px 15px -5px #15202B; 
+box-shadow: 0px 0px 15px -5px #15202B;
 }
 
 .mytabs {
@@ -625,6 +638,11 @@ tbody tr:hover {
     margin-top: 20px;
 }
 
+.isi-tanya{
+	cursor: pointer;
+	-webkit-box-shadow: 0px 0px 15px -5px #15202B; 
+box-shadow: 0px 0px 15px -5px #15202B;
+}
 .isi-tanya-container p {
     text-align: center;
     font-size: 10pt;
@@ -717,7 +735,6 @@ tbody tr:hover {
 }
 
 .isi-tanya {
-    border: 1px solid var(--tem);
     margin-bottom: 50px;
     padding: 10px;
     border-radius: 10px;
@@ -782,7 +799,11 @@ tbody tr:hover {
 
 .container-jawab .tombol-tanya {
     background: var(--garis);
-    border: 1px solid var(--tem);
+    cursor: pointer;
+}
+.container-jawab .tombol-tanya:hover{
+	background: var(--bg);
+	color: var(--tem);
 }
 
 .tanyaan-nya {
