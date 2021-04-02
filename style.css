@@ -233,8 +233,13 @@ body {
 	color: var(--tem);
 }
 .light-mode .container .tingkatkan-poin .poin .icon-poin{
-	background: none;
+	background: var(--tem);
 }
+
+.light-mode .container .tingkatkan-poin .poin .icon-poin svg{
+	color: white;
+}
+
 .light-mode .container .tingkatkan-poin .tiga{
 	background: var(--tem);
 
