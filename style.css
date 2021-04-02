@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 :root {
     --bg: #15202B;
@@ -7,6 +7,7 @@
     --cool: #192734;
     --abu: #F5F8FA;
     --biru: #146182;
+    --lemb: rgba( 0, 153, 255, 0.15 );
 }
 
 * {
@@ -20,46 +21,46 @@ body {
     color: white;
 }
 
-.light-mode {
+.light-mode .mobile {
     background-color: white;
     color: #000;
 }
 
-.light-mode .logo{
+.light-mode .mobile .logo{
 	background-color: var(--tem);
 	color: white;
 }
 
-.light-mode .logo svg{
+.light-mode .mobile .logo svg{
 	color: white;
 }
 
-.light-mode .search-wrapper{
+.light-mode .mobile .search-wrapper{
 	border-radius: 20px;
 	background: var(--abu);
 }
-.light-mode .search-wrapper .search-input{
+.light-mode .mobile .search-wrapper .search-input{
 	background: var(--abu);
 	border-radius: 20px;
 }
-.light-mode .isi-tanya-container{
+.light-mode .mobile .isi-tanya-container{
 	margin-bottom: 30px;
 }
-.light-mode .isi-tanya{
+.light-mode .mobile .isi-tanya{
 	background: var(--abu);
 }
-.light-mode .waktu span{
+.light-mode .mobile .waktu span{
 	background: var(--garis);
 }
-.light-mode .dilihat svg{
+.light-mode .mobile .dilihat svg{
 	color: var(--garis);
 }
-.light-mode .hasil-jawab .tanya, .light-mode .hasil-jawab .tanya textarea{
+.light-mode .mobile .hasil-jawab .tanya, .light-mode .hasil-jawab .tanya textarea{
 	background: none;
 	border: none;
 }
 
-.light-mode ::selection{
+.light-mode .mobile ::selection{
 	background: var(--tem);
 	color: white;
 }
@@ -77,46 +78,46 @@ body {
 	background: var(--biru);
 	color: white;
 }
-.light-mode .container-jawab a span{
+.light-mode .mobile .container-jawab a span{
 	background: var(--tem);
 	border: 0;
 }
-.light-mode .container-jawab a span svg{
+.light-mode .mobile .container-jawab a span svg{
 	color: white;
 }
-.light-mode .tanya, .light-mode .tanya textarea{
+.light-mode .mobile .tanya, .light-mode .tanya textarea{
 	background: white;
 	border: 0;
 }
-.light-mode .tanya{
+.light-mode .mobile .tanya{
 	border-bottom: 1px solid var(--tem);
 }
-.light-mode .tanya textarea::placeholder{
+.light-mode .mobile .tanya textarea::placeholder{
 	color: var(--tem);
 }
-.light-mode .mytabs-tanya, .light-mode .mytabs-tanya .tab{
+.light-mode .mobile .mytabs-tanya, .light-mode .mytabs-tanya .tab{
 	background: white;
 }
 .light-mode .mytabs input[type='radio']+label{
 	background: var(--tem);
 	color: white;
 }
-.light-mode .mytabs input[type='radio']+label svg{
+.light-mode .mobile .mytabs input[type='radio']+label svg{
 	color: white;
 }
-.light-mode .mobile .mytabs input[type='radio']:checked+label{
+.light-mode .mytabs input[type='radio']:checked+label{
 	background: var(--biru);
 }
 .light-mode .mobile .add-tanya{
 	border-top: 0;
 }
-.light-mode .isi-rangking .kanan svg{
+.light-mode .mobile .isi-rangking .kanan svg{
 	color: var(--garis);
 }
-.light-mode .isi-rangking{
+.light-mode .mobile .isi-rangking{
 	border-top: none;
 }
-.light-mode select, .light-mode .notif .info .dilihat{
+.light-mode .mobile select, .light-mode .notif .info .dilihat{
 	background: var(--biru);
 	border-radius: 50px;
 }
@@ -124,30 +125,33 @@ body {
 	color: var(--garis);
 }
 .light-mode .notif .info span{
-	color: #fff;
+	color: var(--tem);
 }
-.light-mode .notif .info .dilihat svg{
+.light-mode .notif .info .dilihat{
+	background: var(--lemb);
+}
+.light-mode .mobile .notif .info .dilihat svg{
 	color: white;
 }
-.light-mode .pencapaian{
+.light-mode .mobile .pencapaian{
 	background: var(--abu);
+	border: 1px solid var(--tem);
 	border-radius: 20px;
-	border: none;
 }
-.light-mode .milikmu{
+.light-mode .mobile .milikmu{
 	background: var(--tem);
 	border: 0;
 	color: white;
 }
-.light-mode .milikmu svg{
+.light-mode .mobile .milikmu svg{
 	color: white;
 }
-.light-mode .profile{
+.light-mode .mobile .profile{
 	background: var(--abu);
 	border: 0;
 	color: var(--garis);
 }
-.light-mode .profile img{
+.light-mode .mobile .profile img{
 	border-color: var(--tem);
 }
 
@@ -158,23 +162,222 @@ body {
 .light-mode .mobile .isi-tanya-container .pencapaian svg{
 	color: var(--tem);
 }
-.light-mode .mytabs{
+.light-mode .mobile .mytabs{
 	background: none;
 }
-.light-mode .mytabs .tab{
+.light-mode .mobile .mytabs .tab{
 	background: none;
 }
-.light-mode thead{
+.light-mode .mobile thead{
 	background: var(--biru);
 }
-.light-mode tbody{
+.light-mode .mobile tbody{
 	background: var(--tem);
 }
-.light-mode .isi-tanya-container{
+.light-mode .mobile .isi-tanya-container{
 	margin-bottom: 50px;
 }
-.light-mode .navigasi-tanya-jawab a{
+.light-mode .mobile .navigasi-tanya-jawab a{
 	color: var(--garis);
+}
+.light-mode .mobile .isi-tanya-container-tantangan{
+	background: var(--tem);
+	border-color: var(--abu);
+}
+.light-mode .mobile .profile img{
+	border-color: rgba( 0, 153, 255, 0.15 );
+}
+
+/* dekstop */
+.light-mode .container .main, .light-mode{
+	color: var(--garis);
+	background: white;
+} 
+.light-mode .container .navbar{
+	background: var(--abu);
+	color: var(--garis);
+	border: 0;
+	border: 1px solid var(--tem);
+	color: var(--garis);
+	border-radius: 20px;
+}
+.light-mode .container .urut .active{
+	background: var(--lemb);
+}
+.light-mode .container .urut svg:hover{
+	background: var(--lemb);
+}
+.light-mode .container .urut svg{
+	color: var(--tem);
+	padding: 5px;
+}
+.light-mode .container-jawab a span:hover{
+	background: var(--abu);
+	color: var(--tem);
+}
+.light-mode .container .tingkatkan-poin{
+	background: var(--abu);
+	color: var(--tem);
+	border: 1px solid var(--tem);
+}
+.light-mode .container .tingkatkan-poin .poin{
+	background: var(--abu);
+	border-radius: 20px;
+	padding: 10px 5px;
+}
+.light-mode .container .tanya{
+	background: #fff;
+	border-color: var(--tem);
+}
+.light-mode .container .tanya textarea::placeholder{
+	color: var(--tem);
+}
+.light-mode .container .tingkatkan-poin .poin .icon-poin{
+	background: none;
+}
+.light-mode .container .tingkatkan-poin .tiga{
+	background: var(--tem);
+
+}
+.light-mode .container .tingkatkan-poin .tiga:hover{
+	background: var(--biru);
+}
+.light-mode .container .tingkatkan-poin .label{
+	background: var(--tem);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	color: white;
+}
+
+.light-mode .container .mapel a{
+	background: none;
+	color: var(--garis);
+}
+.light-mode .container .mapel a:hover{
+	color: var(--tem);
+}
+.light-mode .container .nav{
+	background: var(--abu);
+	border-radius: 20px;
+	color: var(--garis);
+}
+.light-mode .container .profile{
+	color: var(--garis);
+}
+.light-mode .container .nav:first-child{
+	background: none;
+	border: 0;
+}
+.light-mode .co4ntainer .nav:hover{
+	color: var(--tem);
+}
+.light-mode .container .nav svg{
+	color: var(--garis);
+}
+.light-mode .isi-tanya{
+	background: var(--abu);
+}
+.light-mode .container .mapel a svg{
+	color: var(--tem);
+}
+.light-mode .container .logo{
+	background: var(--tem);
+	color: white;
+}
+.light-mode .container .logo svg{
+	color: #fff;
+}
+.light-mode .container .profile{
+	border: 0;
+	background: var(--abu);
+	border-top: 1px solid var(--tem);
+	border-bottom: 1px solid var(--tem);
+}
+.light-mode .container .navigasi-tanya-jawab a{
+	color: var(--biru);
+}
+.light-mode .container .navigasi-tanya-jawab a:hover{
+	color: var(--tem);
+}
+.light-mode .container .profile img{
+	border-color: var(--lemb);
+}
+.light-mode .container .filter .isi-filter{
+	background: var(--tem);
+}
+.light-mode .container .filter .isi-filter a:hover{
+	background: var(--abu);
+	color: var(--garis);
+}
+.light-mode .isi-tanya .tombol-tanya{
+	background: var(--tem);
+}
+.light-mode .isi-tanya .tombol-tanya svg{
+	color: white;
+}
+.light-mode .isi-tanya .tombol-tanya:hover svg{
+	color: var(--tem);
+}
+.light-mode .container .menu, .light-mode .container .others{
+	border-color: var(--tem);
+}
+.light-mode .container .rangking{
+	background: var(--abu);
+	border: 1px solid var(--tem);
+}
+.light-mode .container .rangking div{
+	border: 0;
+}
+.light-mode .container .rangking .profile{
+	border-top: 1px solid var(--tem);
+	border-radius: 0;
+}
+.light-mode .container .rangking .akhir-rangking{
+	color: var(--tem);
+}
+.light-mode .container .search-wrapper{
+	border: 1px solid var(--tem);
+}
+.light-mode .container .isi-rangking{
+	border: 0;
+}
+.light-mode .container .isi-rangking svg{
+	color: var(--garis);
+}
+.light-mode .container .search-wrapper, .light-mode .container .search-input{
+	background: var(--abu);
+}
+.light-mode .container a{
+	text-decoration: none;
+}
+.light-mode .container .milikmu{
+	background: var(--tem);
+	border: 0;
+	color: white;
+}
+.light-mode .container .milikmu svg{
+	color: white;
+}
+
+.light-mode .container .pencapaian{
+	background: var(--abu);
+	border-radius: 20px;
+	border: 1px solid var(--tem);
+}
+
+.light-mode .container .mytabs, .light-mode .container .mytabs .tab{
+	background: none;
+}
+.light-mode .container .mytabs svg{
+	color: white;
+}
+
+.light-mode .container thead{
+	background: var(--biru);
+}
+.light-mode .container tbody{
+	background: var(--tem);
+	border: 0;
 }
 
 a {
@@ -253,9 +456,9 @@ a {
 
 .logo span {
     margin-left: 10px;
-    font-weight: 700;
-    font-family: 'Acme', sans-serif;
-    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15pt;
 }
 
 .profile {
@@ -419,6 +622,7 @@ a {
     background: var(--bg);
     display: flex;
     justify-content: space-between;
+	align-items: center;
 }
 
 .urut svg {
@@ -490,7 +694,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--garis);
+    background: var(--lemb);
 }
 
 ::-webkit-scrollbar-track {
@@ -577,24 +781,20 @@ select{
     font-size: 15pt;
 }
 .isi-tingkatkan-poin{
-	height: 10vh;
+	height: 230px;
 	font-weight: 100;
 	border-radius: 20px;
+	overflow: auto;
+    padding: 10px;
+    padding-top: 20px;
 }
 .tingkatkan-poin-utama .isi-tingkatkan-poin{
-	height: 90vh;
+	height: 650px;
 }
 
 .label {
     padding: 10px;
     background: var(--garis);
-}
-
-.isi-tingkatkan-poin {
-    height: 30vh;
-    overflow: auto;
-    padding: 10px;
-    padding-top: 20px;
 }
 
 .poin {
@@ -819,7 +1019,9 @@ tbody tr:hover {
     margin-bottom: 50px;
     margin-top: 20px;
 }
-
+.isi-tanya-container-tantangan{
+	border-top : 1px solid var(--garis);
+}
 .isi-tanya-container p {
     font-size: 10pt;
 }
