@@ -384,6 +384,9 @@ a {
     text-decoration: none;
     color: white;
 }
+.modal-tanya{
+	border-bottom: 1px solid var(--tem);
+}
 
 .container {
     display: flex;
