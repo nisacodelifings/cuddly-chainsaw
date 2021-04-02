@@ -70,7 +70,7 @@ body {
 .light-mode .mobile .navbar svg{
 	color: white;
 }
-.light-mode .mobile .navbar svg.active{
+.light-mode .mobile .navbar svg.active, .light-mode .mobile .navbar svg:hover{
 	width: 20px;
 	padding: 5px;
 	border-radius: 20px;
@@ -117,14 +117,14 @@ body {
 	border-top: none;
 }
 .light-mode select, .light-mode .notif .info .dilihat{
-	background: var(--tem);
+	background: var(--biru);
+	border-radius: 50px;
 }
-.light-mode .notif span{
+.light-mode .notif{
 	color: var(--garis);
 }
-
-.light-mode .notif .info .dilihat span{
-	color: white;
+.light-mode .notif .info span{
+	color: #fff;
 }
 .light-mode .notif .info .dilihat svg{
 	color: white;
@@ -152,11 +152,11 @@ body {
 }
 
 .light-mode .mobile .isi-tanya-container .pencapaian{
-	background: var(--tem);
-	color: white;
+	background: var(--abu);
+	color: var(--garis);
 }
 .light-mode .mobile .isi-tanya-container .pencapaian svg{
-	color: white;
+	color: var(--tem);
 }
 .light-mode .mytabs{
 	background: none;
@@ -169,6 +169,12 @@ body {
 }
 .light-mode tbody{
 	background: var(--tem);
+}
+.light-mode .isi-tanya-container{
+	margin-bottom: 50px;
+}
+.light-mode .navigasi-tanya-jawab a{
+	color: var(--garis);
 }
 
 a {
@@ -446,7 +452,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     overflow: hidden;
     font-weight: 100;
     padding: 2px;
@@ -706,6 +711,10 @@ box-shadow: 0px 0px 15px -5px #15202B;
     background: var(--bg);
 }
 
+.mytabs-profil{
+	margin-bottom: 20px;
+}
+
 .mytabs input[type="radio"] {
     display: none;
 }
@@ -807,11 +816,11 @@ tbody tr:hover {
 
 .isi-tanya-container {
     padding: 10px;
+    margin-bottom: 50px;
     margin-top: 20px;
 }
 
 .isi-tanya-container p {
-    text-align: center;
     font-size: 10pt;
 }
 
@@ -1193,6 +1202,12 @@ tbody tr:hover {
     .mobile .mytabs {
         margin-bottom: 50px;
         margin-top: 0;
+    }
+    .mobile .mytabs-tanya{
+    	margin-bottom: 0;
+    }
+    .mobile .mytabs-tanya .tab .isi-tanya-container{
+    	margin-bottom: 0;
     }
 
     .mobile .mytabs .isi-tanya-container .tanyaan-nya {
