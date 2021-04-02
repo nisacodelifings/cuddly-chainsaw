@@ -604,7 +604,10 @@ a {
 .nav svg {
     width: 30px;
     margin-right: 20px;
-    color: var(--abu);
+    color: var(--tem);
+}
+.nav:hover svg {
+    color: white;
 }
 
 .navigasi .active {
@@ -836,14 +839,14 @@ select{
 
 .tiga {
     text-align: center;
-    background: var(--bg);
+    background: var(--garis);
     padding: 5px 20px;
     width: 90%;
     border-radius: 10px;
 }
 
 .tiga:hover {
-    background: var(--garis);
+    background: var(--bg);
 }
 .tanya {
     padding: 20px;
