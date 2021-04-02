@@ -824,7 +824,7 @@ select{
 }
 
 .text-poin svg {
-    color: var(--org);
+    color: var(--tem);
     width: 12px;
 }
 
