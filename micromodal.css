@@ -30,6 +30,7 @@
   max-width: 500px;
   max-height: auto;
   border-radius: 20px;
+  overflow-y: auto;
   box-sizing: border-box;
 }
 
