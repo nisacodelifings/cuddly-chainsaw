@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 :root {
-    --bg: #15202B;
+    --bg: #071A3D;
     --garis: #253341;
     --tem: #0099ff;
     --cool: #192734;
@@ -91,9 +93,6 @@ body {
 }
 .light-mode .mobile .tanya{
 	border-bottom: 1px solid var(--tem);
-}
-.light-mode .mobile .tanya textarea::placeholder{
-	color: var(--tem);
 }
 .light-mode .mobile .mytabs-tanya, .light-mode .mytabs-tanya .tab{
 	background: white;
@@ -222,9 +221,6 @@ body {
 	background: #fff;
 	border-color: var(--tem);
 }
-.light-mode .container .tanya textarea::placeholder{
-	color: var(--tem);
-}
 .light-mode .container .tingkatkan-poin .poin .icon-poin{
 	background: var(--tem);
 }
@@ -265,6 +261,9 @@ body {
 .light-mode .container .nav:first-child{
 	background: none;
 	border: 0;
+}
+.light-mode .container .mapel .active:first-child{
+	color: var(--tem);
 }
 .light-mode .co4ntainer .nav:hover{
 	color: var(--tem);
@@ -498,6 +497,9 @@ a {
     display: flex;
     margin: 10px;
 }
+.light-mode .penting a{
+	color: var(--tem);
+}
 
 .milikmu {
     border: 1px solid var(--garis);
@@ -689,7 +691,7 @@ a {
 }
 
 .search-input::placeholder {
-    color: var(--tem);
+    color: #fff;
 }
 
 /* Scrollbar */
