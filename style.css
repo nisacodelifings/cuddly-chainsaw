@@ -38,6 +38,7 @@ body {
 }
 
 .light-mode .mobile .search-wrapper{
+    color: var(--tem);
 	border-radius: 20px;
 	background: var(--abu);
 }
@@ -693,7 +694,7 @@ a {
 }
 
 .search-input::placeholder {
-    color: #fff;
+    color: var(--tem);
 }
 
 /* Scrollbar */
