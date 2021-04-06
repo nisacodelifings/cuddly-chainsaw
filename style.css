@@ -43,6 +43,7 @@ body {
 }
 .light-mode .mobile .search-wrapper .search-input{
 	background: var(--abu);
+    color: var(--tem);
 	border-radius: 20px;
 }
 .light-mode .mobile .isi-tanya-container{
@@ -343,6 +344,7 @@ body {
 }
 .light-mode .container .search-wrapper, .light-mode .container .search-input{
 	background: var(--abu);
+    color: var(--tem);
 }
 .light-mode .container a{
 	text-decoration: none;
