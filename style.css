@@ -878,7 +878,7 @@ select{
 
 .tanya textarea::placeholder {
     font-family: 'Acme', sans-serif;
-    color: #fff;
+    color: var(--tem);
 }
 
 .tanya textarea:focus::placeholder {
